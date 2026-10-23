@@ -1,0 +1,22 @@
+{
+  "id": "nkwib/turn-report",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/nkwib/paseo-turn-report.git",
+    "commit": "85f598cc5859c129459e3309e8db3a3d3b8c6f8c",
+    "tag": "v0.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/nkwib/paseo-turn-report",
+    "commit": "85f598cc5859c129459e3309e8db3a3d3b8c6f8c"
+  },
+  "categories": [
+    "orchestration",
+    "git",
+    "utils"
+  ],
+  "submittedAt": "2026-10-19T12:07:35Z",
+  "submittedBy": "nkwib",
+  "publishedAt": "2026-10-19T12:34:19Z",
+  "reviewedAt": "2026-10-21T12:02:05Z"
+}

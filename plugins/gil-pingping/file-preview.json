@@ -1,0 +1,27 @@
+{
+  "id": "gil-pingping/file-preview",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/gil-pingping/paseo-file-preview.git",
+    "commit": "1fb585cb5fc2424983f5389fb6f0accceff0647e",
+    "tag": "v0.1.1"
+  },
+  "repository": {
+    "url": "https://github.com/gil-pingping/paseo-file-preview",
+    "commit": "1fb585cb5fc2424983f5389fb6f0accceff0647e"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-18T06:31:18Z",
+  "submittedBy": "gil-pingping",
+  "publishedAt": "2026-10-21T04:34:15Z",
+  "reviewedAt": "2026-10-21T04:34:15Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/gil-pingping/paseo-file-preview/51254242599069e16319788fd8ddf6a9d2b3f811/docs/screenshots/preview-panel.png",
+      "https://raw.githubusercontent.com/gil-pingping/paseo-file-preview/51254242599069e16319788fd8ddf6a9d2b3f811/docs/screenshots/pdf-viewer.png"
+    ]
+  }
+}

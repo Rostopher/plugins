@@ -189,6 +189,8 @@ test("changed-record review ignores unreachable media on an unchanged listing", 
   assert.equal(f.add("--commit", f.commit).status, 0);
   const old = f.record();
   old.id = "acme/old";
+  old.artifact.remote = "https://github.com/acme/old.git";
+  old.repository.url = "https://github.com/acme/old";
   old.listing = { media: ["https://unrelated-plugin.invalid/image.png"] };
   rmSync(f.recordPath);
   writeFileSync(join(f.registry, "plugins/acme/old.json"), JSON.stringify(old));
@@ -238,4 +240,52 @@ test("build publishes the other plugins when one pinned source cannot be fetched
   const empty = spawnSync(process.execPath, ["scripts/build.ts"], { cwd: f.registry, env, encoding: "utf8" });
   assert.notEqual(empty.status, 0);
   assert.match(empty.stderr, /Skipped acme\/missing/);
+});
+
+test("localized Git build preserves v1 defaults and selects changes to reviewer translations", (t) => {
+  const f = fixture(t, "plugins/example");
+  writeFileSync(join(f.plugin, "paseo-plugin.json"), JSON.stringify({
+    name: "Example", description: "English description",
+    translations: { "zh-CN": { name: "示例", description: "中文描述" } },
+  }));
+  writeFileSync(join(f.plugin, "OVERVIEW.zh-CN.md"), "作者概述");
+  f.git("add", "."); f.git("commit", "-qm", "translations");
+  const reviewed = f.git("rev-parse", "HEAD");
+  writeFileSync(join(f.plugin, "OVERVIEW.zh-CN.md"), "Unreviewed HEAD translation");
+  f.git("add", "."); f.git("commit", "-qm", "unreviewed");
+  assert.equal(f.add("--commit", reviewed).status, 0);
+  const record = f.record();
+  record.listing = { translations: { "zh-CN": { name: "审阅名称" } } };
+  writeFileSync(f.recordPath, JSON.stringify(record));
+  writeFileSync(f.recordPath.replace(/\.json$/, ".zh-CN.md"), "Registry Chinese fallback");
+  writeFileSync(f.recordPath.replace(/\.json$/, ".fr.md"), "Présentation du réviseur");
+  const build = f.cli("build");
+  assert.equal(build.status, 0, build.stderr);
+  const index = JSON.parse(readFileSync(join(f.registry, "dist/index.json"), "utf8"));
+  const detail = JSON.parse(readFileSync(join(f.registry, "dist/plugins/acme/example.json"), "utf8"));
+  assert.equal(index.schemaVersion, 1);
+  assert.equal(detail.name, "Example"); assert.equal(detail.description, "English description");
+  assert.equal(detail.readme, "A fixture plugin.");
+  assert.deepEqual(detail.translations, { "zh-CN": { name: "审阅名称", description: "中文描述" } });
+  assert.deepEqual(detail.overviewTranslations, { "zh-CN": "作者概述", fr: "Présentation du réviseur" });
+  const { readme, overviewTranslations, ...summary } = detail;
+  assert.deepEqual(index.plugins, [summary]);
+  // Old consumers still use the same string fields and installation pin.
+  assert.equal(typeof summary.name, "string"); assert.equal(typeof summary.description, "string");
+  assert.equal(detail.artifact.commit, reviewed);
+  const git = (...args: string[]) => {
+    const r = spawnSync("git", args, { cwd: f.registry, encoding: "utf8" });
+    assert.equal(r.status, 0, r.stderr);
+  };
+  git("init", "-q"); git("config", "user.name", "Test"); git("config", "user.email", "test@example.com");
+  git("add", "plugins"); git("commit", "-qm", "reviewed");
+  git("update-ref", "refs/remotes/origin/main", "HEAD");
+  writeFileSync(f.recordPath.replace(/\.json$/, ".fr.md"), "Présentation mise à jour");
+  git("add", "plugins"); git("commit", "-qm", "reviewer translation");
+  const checked = f.cli("validate", "--online", "--changed");
+  assert.equal(checked.status, 0, checked.stderr);
+  assert.match(checked.stdout, /1 record\(s\) match/);
+  writeFileSync(f.recordPath.replace(/\.json$/, ".zh-cn.md"), "Invalid locale");
+  const auxiliary = f.cli("validate");
+  assert.equal(auxiliary.status, 0, auxiliary.stderr);
 });

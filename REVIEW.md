@@ -62,8 +62,8 @@ and development-only dependencies do not create an installation requirement. Rea
 scripts that would execute; do not execute them yourself. Build commands must have an
 understandable purpose and operate on the reviewed inputs.
 
-Every published listing needs an accurate overview and a one-sentence description. Visual plugins need suitable media,
-as described below. The reviewer can supply or correct these in the registry PR.
+Every published listing needs an accurate overview and a one-sentence description.
+Visual plugins need suitable media, as described below. The reviewer can supply or correct these in the registry PR.
 
 Run the registry validator against the completed proposal. A validator failure is evidence
 to understand, not an instruction to pass its diagnostics to an author. Distinguish an
@@ -171,6 +171,20 @@ their own in the next release. Explain that it is written for the listing page, 
 is already shown. Link to the
 [publishing guide's overview guidance](https://paseo.sh/docs/plugins/publishing#your-listing-page)
 for its format. An imperfect supplied overview is editorial work, not an automatic rejection.
+
+### Translated listings
+
+Newly listed plugins need English default names, descriptions and overviews.
+Check this during review; the validator does not detect language. Existing
+listings keep their default text, including non-English text. Translations are
+optional.
+
+Review each supplied translation and its linked assets under the same content
+requirements as English. Read `translations` and `OVERVIEW.<locale>.md` from the
+reviewed artifact. Use `listing.translations` to correct individual fields and
+`plugins/<owner>/<slug>.<locale>.md` to fill an overview missing from that language.
+Author overviews take precedence per language. See
+[authoring and override examples](README.md#listing-translations).
 
 ## Outcomes and communication
 

@@ -1,0 +1,22 @@
+{
+  "id": "anh-chu/tasks",
+  "artifact": {
+    "kind": "npm",
+    "package": "paseo-plugin-tasks",
+    "version": "0.1.1",
+    "resolved": "https://registry.npmjs.org/paseo-plugin-tasks/-/paseo-plugin-tasks-0.1.1.tgz",
+    "integrity": "sha512-EaOunHq73Anrg/0DjK0TjGSQtPlr1ifQQHDB8Zk8YgIZYYn6O679RBL6qt91TpCpWI4tDxNb3LPYfBUpSj6uHA=="
+  },
+  "repository": {
+    "url": "https://github.com/anh-chu/paseo-plugin-tasks"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-17T20:23:08Z",
+  "submittedBy": "anh-chu",
+  "publishedAt": "2026-10-18T09:03:41Z",
+  "reviewedAt": "2026-10-19T09:39:27Z"
+}

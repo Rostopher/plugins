@@ -1,0 +1,25 @@
+{
+  "id": "windyskr/wsl-open",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/Windyskr/paseo-wsl-open.git",
+    "commit": "bf1256552053914766479f6ecc09931a213e7880"
+  },
+  "repository": {
+    "url": "https://github.com/Windyskr/paseo-wsl-open",
+    "commit": "bf1256552053914766479f6ecc09931a213e7880"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-19T03:30:57Z",
+  "submittedBy": "Windyskr",
+  "publishedAt": "2026-10-19T03:30:57Z",
+  "reviewedAt": "2026-10-19T03:30:57Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/Windyskr/paseo-wsl-open/df07b28d18ebafdd8c3f8ae2d9499cf726a0a24d/media/open-in-windows.png"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "zedobaia/auto-fetch",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ZedObaia/paseo-plugins.git",
+    "commit": "8a787b4ddfe3ad27e53e39c3e93a44bef4e5a560",
+    "pluginPath": "plugins/auto-fetch"
+  },
+  "repository": {
+    "url": "https://github.com/ZedObaia/paseo-plugins",
+    "commit": "8a787b4ddfe3ad27e53e39c3e93a44bef4e5a560"
+  },
+  "categories": [
+    "git",
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-19T13:11:34Z",
+  "submittedBy": "ZedObaia",
+  "publishedAt": "2026-10-19T13:14:37Z",
+  "reviewedAt": "2026-10-19T13:14:37Z"
+}

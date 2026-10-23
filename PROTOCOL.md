@@ -294,6 +294,55 @@ Optional fields: `license` (string), `author.name`, `author.npm`,
 `webm` (case-insensitive). Keep their display order; the card thumbnail is the first
 image entry, even when a video comes first. Dates use ISO 8601.
 
+## Listing translations
+
+Both translation fields are optional additions to schema v1:
+
+| Field | Documents | Value |
+| --- | --- | --- |
+| `translations` | Index entries and detail | `Record<locale, { name?: string; description?: string }>` |
+| `overviewTranslations` | Detail only | `Record<locale, string>` with Markdown bodies |
+
+Use canonical language tags such as `zh-CN`; English uses the default fields.
+A missing name or description falls back individually to `name` or `description`.
+A missing overview falls back to the whole `readme` document. Existing listings
+keep their original default text.
+
+Index excerpt, with unchanged fields omitted:
+
+```json
+{
+  "schemaVersion": 1,
+  "plugins": [{
+    "id": "acme/example",
+    "name": "Example",
+    "description": "Keep notes alongside your workspace.",
+    "translations": {
+      "zh-CN": { "name": "示例", "description": "在工作区旁记录笔记。" }
+    }
+  }]
+}
+```
+
+Detail excerpt:
+
+```json
+{
+  "id": "acme/example",
+  "name": "Example",
+  "description": "Keep notes alongside your workspace.",
+  "translations": {
+    "zh-CN": { "name": "示例", "description": "在工作区旁记录笔记。" }
+  },
+  "readme": "Keep notes alongside your workspace.\n",
+  "overviewTranslations": { "zh-CN": "在工作区旁记录笔记。\n" }
+}
+```
+
+Clients that ignore unknown fields continue to read the default text. Clients
+supporting translations must accept entries without either map. The existing
+fields, schema version, plugin ID, categories and artifact pin are unchanged.
+
 ## Artifact pins
 
 Install only `artifact`, never derive an install source from `repository` or README.

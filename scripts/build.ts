@@ -6,7 +6,7 @@ import { categorySlugs, readCategories } from "./lib/categories.ts";
 import { readFeatured } from "./lib/featured.ts";
 import { type PublishedIndex, resolvePlugin, summarize } from "./lib/listing.ts";
 import { createNpmClient } from "./lib/npm.ts";
-import { readOverview } from "./lib/overview.ts";
+import { readOverview, readOverviewTranslations } from "./lib/overview.ts";
 import { readRecords } from "./lib/record.ts";
 
 requireCompletedSubmissions();
@@ -29,7 +29,7 @@ const details = (
   await mapLimit(records, CONCURRENCY, async (record) => {
     try {
       // Registry content is the import stopgap after the pinned author overview.
-      return await resolvePlugin(client, record, readOverview(record.id));
+      return await resolvePlugin(client, record, readOverview(record.id), readOverviewTranslations(record.id));
     } catch (error) {
       skipped.push({ id: record.id, reason: error instanceof Error ? error.message : String(error) });
       return null;

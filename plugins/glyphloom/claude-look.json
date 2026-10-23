@@ -1,0 +1,19 @@
+{
+  "id": "glyphloom/claude-look",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/glyphloom/claude-look.git",
+    "commit": "691de6344920d4f87df9a39c96d7a252b66df627"
+  },
+  "repository": {
+    "url": "https://github.com/glyphloom/claude-look",
+    "commit": "691de6344920d4f87df9a39c96d7a252b66df627"
+  },
+  "categories": [
+    "extras"
+  ],
+  "submittedAt": "2026-10-20T12:36:05.000Z",
+  "submittedBy": "glyphloom",
+  "publishedAt": "2026-10-20T13:01:38Z",
+  "reviewedAt": "2026-10-20T13:01:38Z"
+}

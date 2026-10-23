@@ -3,12 +3,12 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/yannelli/paseo-prompt-manager.git",
-    "commit": "6194076b5198d7447a7720ce7a1018b130069273",
-    "tag": "v0.4.2"
+    "commit": "74d00cada28c88dc5de7f43de4f85ddfab2cd9b4",
+    "tag": "v0.5.0"
   },
   "repository": {
     "url": "https://github.com/yannelli/paseo-prompt-manager",
-    "commit": "6194076b5198d7447a7720ce7a1018b130069273"
+    "commit": "74d00cada28c88dc5de7f43de4f85ddfab2cd9b4"
   },
   "categories": [
     "utils",
@@ -17,15 +17,17 @@
   ],
   "submittedAt": "2026-09-10",
   "publishedAt": "2026-09-10",
-  "reviewedAt": "2026-10-09",
+  "reviewedAt": "2026-10-20T13:39:32Z",
   "listing": {
     "media": [
-      "https://raw.githubusercontent.com/yannelli/paseo-prompt-manager/f6a724bf56b85adc42373ea68e2b6f46ce6d11b0/docs/images/github-banner.png",
+      "https://raw.githubusercontent.com/sevgit/paseo-prompt-manager/40ff39a1675203a4ba94230c34b9ab485831f5e3/wide-picker-form.png",
+      "https://raw.githubusercontent.com/sevgit/paseo-prompt-manager/40ff39a1675203a4ba94230c34b9ab485831f5e3/phone-picker-form.png",
       "https://raw.githubusercontent.com/yannelli/paseo-prompt-manager/f6a724bf56b85adc42373ea68e2b6f46ce6d11b0/docs/promo/light/library.png",
       "https://raw.githubusercontent.com/yannelli/paseo-prompt-manager/f6a724bf56b85adc42373ea68e2b6f46ce6d11b0/docs/promo/light/composer.png",
       "https://raw.githubusercontent.com/yannelli/paseo-prompt-manager/f6a724bf56b85adc42373ea68e2b6f46ce6d11b0/docs/promo/light/history.png",
       "https://raw.githubusercontent.com/yannelli/paseo-prompt-manager/f6a724bf56b85adc42373ea68e2b6f46ce6d11b0/docs/promo/light/import.png",
       "https://raw.githubusercontent.com/yannelli/paseo-prompt-manager/f6a724bf56b85adc42373ea68e2b6f46ce6d11b0/docs/promo/light/git-sync.png"
     ]
-  }
+  },
+  "submittedBy": "sevgit"
 }

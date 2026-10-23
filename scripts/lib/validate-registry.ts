@@ -3,7 +3,7 @@ import { validateArtifact } from "./validate-artifact.ts";
 import { categorySlugs, readCategories } from "./categories.ts";
 import { readFeatured } from "./featured.ts";
 import { createNpmClient, type NpmClient } from "./npm.ts";
-import { readOverview } from "./overview.ts";
+import { readOverview, readOverviewTranslations } from "./overview.ts";
 import { readRecords, recordDateProblems } from "./record.ts";
 import { checkMediaUrls } from "./media.ts";
 import { git } from "./shell.ts";
@@ -30,7 +30,7 @@ export async function validateRegistry(options: {
   const known = categorySlugs(readCategories());
   const records = readRecords(known);
   readFeatured(records);
-  for (const record of records) readOverview(record.id);
+  for (const record of records) { readOverview(record.id); readOverviewTranslations(record.id); }
   console.log(`${records.length} record(s) are well-formed`);
   if (!online) return;
 
@@ -41,7 +41,7 @@ export async function validateRegistry(options: {
       git(["diff", "--name-only", `${baseCommit}...HEAD`, "--", "plugins/"])
         .split("\n")
         .filter(Boolean)
-        .map((path) => path.replace(/^plugins\//, "").replace(/\.(?:json|md)$/, "")),
+        .map((path) => path.replace(/^plugins\//, "").replace(/\.(?:json|md)$/, "").replace(/\.[^.]+$/, "")),
     );
     selected = records.filter((record) => changed.has(record.id));
     const dateProblems = selected.flatMap((record) =>

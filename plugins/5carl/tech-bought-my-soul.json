@@ -1,0 +1,26 @@
+{
+  "id": "5carl/tech-bought-my-soul",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/5carl/tech-bought-my-soul.git",
+    "commit": "b4f95d320096665d62af9b62894e56c44d299cac",
+    "pluginPath": "paseo"
+  },
+  "repository": {
+    "url": "https://github.com/5carl/tech-bought-my-soul",
+    "commit": "b4f95d320096665d62af9b62894e56c44d299cac"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-20T22:01:24Z",
+  "submittedBy": "5carl",
+  "publishedAt": "2026-10-20T22:01:24Z",
+  "reviewedAt": "2026-10-20T22:01:24Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/5carl/tech-bought-my-soul/b4f95d320096665d62af9b62894e56c44d299cac/assets/paseo.png"
+    ]
+  }
+}

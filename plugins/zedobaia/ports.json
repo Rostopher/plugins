@@ -1,0 +1,21 @@
+{
+  "id": "zedobaia/ports",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ZedObaia/paseo-plugins.git",
+    "commit": "90c46606857a87dafa45be080357ec59662ffc5e",
+    "pluginPath": "plugins/ports"
+  },
+  "repository": {
+    "url": "https://github.com/ZedObaia/paseo-plugins",
+    "commit": "90c46606857a87dafa45be080357ec59662ffc5e"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-17T18:43:31Z",
+  "submittedBy": "ZedObaia",
+  "publishedAt": "2026-10-17T21:10:46Z",
+  "reviewedAt": "2026-10-18T15:02:33Z"
+}

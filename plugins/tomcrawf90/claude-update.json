@@ -1,0 +1,30 @@
+{
+  "id": "tomcrawf90/claude-update",
+  "artifact": {
+    "kind": "npm",
+    "package": "paseo-plugin-claude-update",
+    "version": "0.2.1",
+    "resolved": "https://registry.npmjs.org/paseo-plugin-claude-update/-/paseo-plugin-claude-update-0.2.1.tgz",
+    "integrity": "sha512-L94pjknTM/g/3mv7s+pgK6/uMMD/FfE0aZenIx+SsbVXDovcyvistMrKqF1dbeqpJVoUQtk7JzPZDe2fI9Jlhg=="
+  },
+  "repository": {
+    "url": "https://github.com/tomcrawf90/paseo-plugin-claude-update",
+    "commit": "acb3d7ced49e253574525c830688ece69c1e7ce8"
+  },
+  "categories": [
+    "daemon-management",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-21T17:42:57Z",
+  "submittedBy": "tomcrawf90",
+  "publishedAt": "2026-10-21T18:01:48Z",
+  "reviewedAt": "2026-10-21T18:01:48Z",
+  "listing": {
+    "name": "Claude Code updates",
+    "media": [
+      "https://raw.githubusercontent.com/tomcrawf90/paseo-plugin-claude-update/acb3d7ced49e253574525c830688ece69c1e7ce8/docs/screenshots/01-status-update-ready.png",
+      "https://raw.githubusercontent.com/tomcrawf90/paseo-plugin-claude-update/acb3d7ced49e253574525c830688ece69c1e7ce8/docs/screenshots/02-status-after-update.png",
+      "https://raw.githubusercontent.com/tomcrawf90/paseo-plugin-claude-update/acb3d7ced49e253574525c830688ece69c1e7ce8/docs/screenshots/03-settings.png"
+    ]
+  }
+}

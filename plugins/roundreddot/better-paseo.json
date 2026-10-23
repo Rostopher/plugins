@@ -1,0 +1,26 @@
+{
+  "id": "roundreddot/better-paseo",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/RoundRedDot/better-paseo.git",
+    "commit": "b7771d8ad76d2638b23dbe8c76f1dcad10536efb"
+  },
+  "repository": {
+    "url": "https://github.com/RoundRedDot/better-paseo",
+    "commit": "b7771d8ad76d2638b23dbe8c76f1dcad10536efb"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-19T08:37:12Z",
+  "submittedBy": "RRD-dev",
+  "publishedAt": "2026-10-19T08:39:57Z",
+  "reviewedAt": "2026-10-19T12:01:52Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/b7771d8ad76d2638b23dbe8c76f1dcad10536efb/images/hero-cover.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/b7771d8ad76d2638b23dbe8c76f1dcad10536efb/images/tasks-board-light.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/b7771d8ad76d2638b23dbe8c76f1dcad10536efb/images/timeline-light.png"
+    ]
+  }
+}

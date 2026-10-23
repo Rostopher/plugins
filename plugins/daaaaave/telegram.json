@@ -1,0 +1,23 @@
+{
+  "id": "daaaaave/telegram",
+  "artifact": {
+    "kind": "npm",
+    "package": "paseo-telegram",
+    "version": "0.2.3",
+    "resolved": "https://registry.npmjs.org/paseo-telegram/-/paseo-telegram-0.2.3.tgz",
+    "integrity": "sha512-iCKKlNjpwWG2OTAVJW3FIZ3x0U2XTAkpEN2azh5IfXy3KlfMWtmrTX3oJbr+zcdylwdrmfQ4LndRpbc+ENP25Q=="
+  },
+  "repository": {
+    "url": "https://github.com/Daaaaave/paseo-telegram",
+    "commit": "3831ac3bd60aa8ca44a2991c5ea3307364e5856e"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-18T20:03:36Z",
+  "submittedBy": "Daaaaave",
+  "publishedAt": "2026-10-18T21:02:58Z",
+  "reviewedAt": "2026-10-22T10:18:25Z"
+}

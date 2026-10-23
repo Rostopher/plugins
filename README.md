@@ -111,9 +111,10 @@ Every migration-written registry overview ends exactly with this italic credit.
 
 Author-owned artifact overviews never receive this credit.
 
-Publication validation requires an author or registry overview and rejects `paseo plugin add`, `npm install`, and
-`npm i` in both author overviews and registry overviews. The rest of the content
-contract is reviewed by a person.
+Publication validation requires an author or registry overview and checks file
+confinement and npm integrity. Content, embedded asset suitability, and omission
+of installation commands are checked by the reviewer under [REVIEW.md](REVIEW.md).
+These checks apply equally to English and translated overviews.
 
 The detail document keeps its existing `readme` field. It publishes the pinned
 author `OVERVIEW.md`, or the registry overview when author content is absent.
@@ -168,6 +169,59 @@ Categories describe where a plugin is listed. Selecting **Themes** does not
 identify the plugin as a theme or trigger a screenshot requirement in the
 submission bot. The PR reviewer determines which screenshots are needed from
 what the plugin does, following [the review policy](REVIEW.md#content).
+
+## Listing translations
+
+Add translated names and descriptions to `paseo-plugin.json`:
+
+```json
+{
+  "id": "example",
+  "name": "Example",
+  "description": "Keep notes alongside your workspace.",
+  "translations": {
+    "zh-CN": { "name": "示例", "description": "在工作区旁记录笔记。" }
+  }
+}
+```
+
+Each locale accepts optional, nonempty `name` and `description` strings. Missing
+fields fall back individually to the default fields. Use canonical language tags
+such as `zh-CN`, `fr`, or `pt-BR`; `zh-cn`, invalid tags, `en`, and unknown fields
+are rejected. English belongs in the default fields. For npm, keep the package
+`description` aligned with the manifest description, since the registry uses the
+package description for npm and the manifest description for Git.
+
+Ship `OVERVIEW.zh-CN.md` beside `OVERVIEW.md` and the manifest. For npm, include
+these files at the package root in the package's `files` list. For Git monorepos,
+put them under `artifact.pluginPath`. Automatic discovery accepts canonical tags
+with two- or three-letter language codes, such as `OVERVIEW.zh-CN.md`,
+`OVERVIEW.fr.md`, or `OVERVIEW.ast.md`, including languages without translated
+metadata. Auxiliary files such as `OVERVIEW.backup.md`, noncanonical filenames
+such as `OVERVIEW.zh-cn.md`, and `OVERVIEW.en.md` are ignored. English uses
+`OVERVIEW.md`. A missing translated overview falls back to the whole default overview.
+
+Reviewers override individual fields through the registry record:
+
+```json
+{
+  "listing": {
+    "translations": { "zh-CN": { "name": "审阅名称" } }
+  }
+}
+```
+
+This replaces the Chinese name and keeps the author's Chinese description.
+`plugins/<owner>/<slug>.zh-CN.md` supplies the reviewer overview when the artifact
+has no overview for that language. Author content wins per language. Remove
+redundant reviewer translations when the author ships them; automatic bump cleanup
+currently removes only the English fallback.
+
+Translations are optional. Newly listed plugins require English defaults under
+[the review policy](REVIEW.md#translated-listings). Reviewers check the language;
+existing non-English listings keep their default text.
+See [the published fields and JSON examples](PROTOCOL.md#listing-translations)
+for the client contract.
 
 ## Maintainers
 

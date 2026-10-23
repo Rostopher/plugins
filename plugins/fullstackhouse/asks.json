@@ -1,0 +1,20 @@
+{
+  "id": "fullstackhouse/asks",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/fullstackhouse/paseo-asks.git",
+    "commit": "617c145c65c2947da5819bcb1be31add5438cb94"
+  },
+  "repository": {
+    "url": "https://github.com/fullstackhouse/paseo-asks",
+    "commit": "617c145c65c2947da5819bcb1be31add5438cb94"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-20T12:05:51Z",
+  "submittedBy": "jtomaszewski",
+  "publishedAt": "2026-10-20T12:10:00Z",
+  "reviewedAt": "2026-10-20T12:10:00Z"
+}

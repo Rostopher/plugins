@@ -1,0 +1,20 @@
+{
+  "id": "fullstackhouse/status",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/fullstackhouse/paseo-status.git",
+    "commit": "be0f994ea0616bb31b72135b6cfa75b34e552ebc"
+  },
+  "repository": {
+    "url": "https://github.com/fullstackhouse/paseo-status",
+    "commit": "be0f994ea0616bb31b72135b6cfa75b34e552ebc"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-20T12:06:06Z",
+  "submittedBy": "jtomaszewski",
+  "publishedAt": "2026-10-20T12:12:21Z",
+  "reviewedAt": "2026-10-20T12:12:21Z"
+}

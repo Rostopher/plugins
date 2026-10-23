@@ -1,0 +1,28 @@
+{
+  "id": "dutchakdev/machine-status",
+  "artifact": {
+    "kind": "npm",
+    "package": "paseo-plugin-machine-status",
+    "version": "0.2.3",
+    "resolved": "https://registry.npmjs.org/paseo-plugin-machine-status/-/paseo-plugin-machine-status-0.2.3.tgz",
+    "integrity": "sha512-sR8kK8k+5OVLT4DxkPIbHFwOZbFBeOlQHFW/rcDXaLGUfSx9NGZgorFHzLEc1t6VxjUNbihLUO2Y60TwvOtCJg=="
+  },
+  "repository": {
+    "url": "https://github.com/dutchakdev/paseo-plugin-machine-status",
+    "commit": "ff6659d86eda5709451084073a88207700700af6"
+  },
+  "categories": [
+    "daemon-management",
+    "utils"
+  ],
+  "submittedAt": "2026-10-15T18:15:32Z",
+  "submittedBy": "dutchakdev",
+  "publishedAt": "2026-10-22T14:02:57Z",
+  "reviewedAt": "2026-10-22T14:02:57Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/dutchakdev/paseo-plugin-machine-status/ff6659d86eda5709451084073a88207700700af6/docs/screenshot.png",
+      "https://raw.githubusercontent.com/dutchakdev/paseo-plugin-machine-status/ff6659d86eda5709451084073a88207700700af6/docs/preview.png"
+    ]
+  }
+}

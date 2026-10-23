@@ -1,0 +1,31 @@
+{
+  "id": "casonmo/bytheway",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/CasonMo/paseo-bytheway.git",
+    "commit": "4e2d4951f4207ae93babda829b5b445989f3e12a"
+  },
+  "repository": {
+    "url": "https://github.com/CasonMo/paseo-bytheway",
+    "commit": "4e2d4951f4207ae93babda829b5b445989f3e12a"
+  },
+  "categories": [
+    "sidebar",
+    "utils",
+    "orchestration"
+  ],
+  "submittedAt": "2026-10-21T11:20:57Z",
+  "submittedBy": "CasonMo",
+  "publishedAt": "2026-10-21T12:32:23Z",
+  "reviewedAt": "2026-10-23T08:32:34Z",
+  "listing": {
+    "name": "ByTheWay",
+    "description": "ByTheWay (btw) — use /btw to ask on the side and /side to run tasks beside your main Paseo session, with original-prompt recall, shared context and live tool activity.",
+    "translations": {
+      "zh-CN": {
+        "name": "ByTheWay 侧聊",
+        "description": "ByTheWay（btw）旁路侧聊：用 /btw 提问、/side 执行任务，在主 Paseo 会话旁回显首条提问、共享上下文并实时显示工具活动。"
+      }
+    }
+  }
+}

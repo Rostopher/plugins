@@ -1,14 +1,15 @@
 {
   "id": "maxwell-01/beam",
   "artifact": {
-    "kind": "git",
-    "remote": "https://github.com/maxwell-01/paseo-beam.git",
-    "commit": "975f8c4c062cb78ca82b203c8952e6c31621a9e6",
-    "pluginPath": "beam"
+    "kind": "npm",
+    "package": "paseo-beam",
+    "version": "0.2.2",
+    "resolved": "https://registry.npmjs.org/paseo-beam/-/paseo-beam-0.2.2.tgz",
+    "integrity": "sha512-gHEtdJYvkFXsJ85Snk7SaS448r8uNl5CJQ/xrYnfzmapbue60jxPEqwsxvJaYIuhQ4SPR74x1qwxzck4Bb1pvQ=="
   },
   "repository": {
-    "url": "https://github.com/maxwell-01/paseo-beam",
-    "commit": "975f8c4c062cb78ca82b203c8952e6c31621a9e6"
+    "url": "https://github.com/maxwell-01/maxs-paseo-plugins/tree/HEAD/beam",
+    "commit": "18e65e93b7b075e50d620db65e149a5d56aa112e"
   },
   "categories": [
     "git",
@@ -17,9 +18,10 @@
   "submittedAt": "2026-09-14",
   "submittedBy": "maxwell-01",
   "publishedAt": "2026-09-14",
-  "reviewedAt": "2026-09-14",
+  "reviewedAt": "2026-10-21T15:03:21Z",
   "listing": {
-    "media": [],
-    "description": "Mirrors a workspace's files onto your main checkout so a dev server running there shows its changes."
+    "media": [
+      "https://raw.githubusercontent.com/maxwell-01/maxs-paseo-plugins/18e65e93b7b075e50d620db65e149a5d56aa112e/beam/assets/screenshot.png"
+    ]
   }
 }

@@ -3,9 +3,9 @@
   "artifact": {
     "kind": "npm",
     "package": "@mousebomb/paseo-solarized",
-    "version": "0.1.0",
-    "resolved": "https://registry.npmjs.org/@mousebomb/paseo-solarized/-/paseo-solarized-0.1.0.tgz",
-    "integrity": "sha512-L+/sp8NvpcbHRwr5RYecQLyx6Evgcl0xu0Y8GI4jTy0Iepfn+w0pqKSTssdMXKGuLq7wCsybaTn1fQMyceSWnQ=="
+    "version": "0.1.1",
+    "resolved": "https://registry.npmjs.org/@mousebomb/paseo-solarized/-/paseo-solarized-0.1.1.tgz",
+    "integrity": "sha512-hfDqhOngGswrm/cpIVsQOhs423633pp/XeZE/d9/vKMUWTlwd2XqtZlYADwje+J8/NTbQHqPleMpUaC2jkqxTw=="
   },
   "repository": {
     "url": "https://github.com/mousebomb/paseo-solarized"
@@ -16,7 +16,7 @@
   "submittedAt": "2026-09-21",
   "submittedBy": "mousebomb",
   "publishedAt": "2026-09-21",
-  "reviewedAt": "2026-09-21",
+  "reviewedAt": "2026-10-19T10:55:52Z",
   "listing": {
     "media": [
       "https://raw.githubusercontent.com/mousebomb/paseo-solarized/18503b4fe8a8b42bd0b5a3ea3aa9a119211b52da/README.assets/image-20260902062537168.png",

@@ -1,0 +1,21 @@
+{
+  "id": "sm1ee/session-triage",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sm1ee/paseo-session-triage.git",
+    "commit": "e048dd721cce2b3daae51a0956811dc251453373",
+    "tag": "v0.1.10"
+  },
+  "repository": {
+    "url": "https://github.com/sm1ee/paseo-session-triage",
+    "commit": "e048dd721cce2b3daae51a0956811dc251453373"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-19T12:16:52Z",
+  "submittedBy": "sm1ee",
+  "publishedAt": "2026-10-19T12:31:36Z",
+  "reviewedAt": "2026-10-23T05:03:12Z"
+}

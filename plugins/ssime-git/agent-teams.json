@@ -1,0 +1,21 @@
+{
+  "id": "ssime-git/agent-teams",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ssime-git/paseo-agent-teams.git",
+    "commit": "6f9006d273ec35235c4bb51e96cb469e0a3422fb",
+    "tag": "v0.1.2"
+  },
+  "repository": {
+    "url": "https://github.com/ssime-git/paseo-agent-teams",
+    "commit": "6f9006d273ec35235c4bb51e96cb469e0a3422fb"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-19T21:34:32Z",
+  "submittedBy": "ssime-git",
+  "publishedAt": "2026-10-19T22:01:43Z",
+  "reviewedAt": "2026-10-19T22:01:43Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sbhas2k/workflow-progress",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sbhas2k/paseo-plugins.git",
+    "commit": "f433cbe0acd49262a46f186a524d2d527219685a",
+    "pluginPath": "workflow-progress"
+  },
+  "repository": {
+    "url": "https://github.com/sbhas2k/paseo-plugins",
+    "commit": "f433cbe0acd49262a46f186a524d2d527219685a"
+  },
+  "categories": [
+    "orchestration",
+    "utils"
+  ],
+  "submittedAt": "2026-10-21T07:22:52Z",
+  "submittedBy": "sbhas2k",
+  "publishedAt": "2026-10-21T07:24:55Z",
+  "reviewedAt": "2026-10-21T07:24:55Z"
+}

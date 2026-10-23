@@ -1,5 +1,6 @@
+import type { ListingTranslations } from "./translations.ts";
 import { readArtifactFiles } from "./artifact-files.ts";
-import { validateOverview, requireOverview } from "./overview.ts";
+import { requireOverview } from "./overview.ts";
 import type { Category } from "./categories.ts";
 import { authorOf, type NpmClient, resolveVersion } from "./npm.ts";
 import { resolveMetadata } from "./metadata.ts";
@@ -9,6 +10,7 @@ import type { PluginRecord } from "./record.ts";
 export interface PublishedPlugin {
   id: string;
   name: string;
+  translations?: ListingTranslations;
   description: string;
   artifact: PluginRecord["artifact"];
   license?: string;
@@ -28,6 +30,7 @@ export interface PublishedPlugin {
 
 export interface PublishedPluginDetail extends PublishedPlugin {
   readme: string;
+  overviewTranslations?: Record<string, string>;
 }
 
 export interface PublishedIndex {
@@ -43,9 +46,11 @@ export async function resolvePlugin(
   client: NpmClient,
   record: PluginRecord,
   overview: string | null = null,
+  registryOverviewTranslations: Record<string, string> = {},
 ): Promise<PublishedPluginDetail> {
   const files = await readArtifactFiles(client, record.artifact);
-  const readme = requireOverview(validateOverview(files.overview, `${record.id}/OVERVIEW.md`), overview, record.id);
+  const readme = requireOverview(files.overview, overview, record.id);
+  const overviewTranslations = { ...registryOverviewTranslations, ...files.overviewTranslations };
   const artifact = record.artifact;
   const doc = artifact.kind === "npm"
     ? resolveVersion(await client.packument(artifact.package), artifact.version)
@@ -65,10 +70,11 @@ export async function resolvePlugin(
     publishedAt: new Date(record.publishedAt).toISOString(),
     updatedAt: reviewedAt,
     readme,
+    ...(Object.keys(overviewTranslations).length ? { overviewTranslations } : {}),
   };
 }
 
 export function summarize(detail: PublishedPluginDetail): PublishedPlugin {
-  const { readme: _readme, ...summary } = detail;
+  const { readme: _readme, overviewTranslations: _overviews, ...summary } = detail;
   return summary;
 }
