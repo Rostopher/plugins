@@ -1,0 +1,14 @@
+{
+  "issue": 1083,
+  "title": "Merge thinking into tool groups",
+  "submittedBy": "ragokan",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/ragokan/paseo-plugins",
+    "ref": "16e714b6c3c270065441f3e93b34ae79201badd3",
+    "pluginPath": "merge-thinking"
+  },
+  "categories": [
+    "utils"
+  ]
+}
