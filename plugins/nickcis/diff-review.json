@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/NickCis/paseo-plugin-diff-review.git",
-    "commit": "9c44c0902d7d2c814a24903bcd5a1836053c2563"
+    "commit": "61ead302a2b065aa95ec175e6fb52869ca849367"
   },
   "repository": {
     "url": "https://github.com/NickCis/paseo-plugin-diff-review",
-    "commit": "9c44c0902d7d2c814a24903bcd5a1836053c2563"
+    "commit": "61ead302a2b065aa95ec175e6fb52869ca849367"
   },
   "categories": [
     "git",
@@ -15,6 +15,6 @@
   ],
   "submittedAt": "2026-10-15T02:27:38Z",
   "submittedBy": "NickCis",
-  "publishedAt": "2026-10-15T02:34:03Z",
-  "reviewedAt": "2026-10-15T02:34:03Z"
+  "publishedAt": "2026-10-23T14:04:37Z",
+  "reviewedAt": "2026-10-23T14:04:37Z"
 }
