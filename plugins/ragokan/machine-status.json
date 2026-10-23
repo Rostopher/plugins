@@ -1,0 +1,21 @@
+{
+  "id": "ragokan/machine-status",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ragokan/paseo-plugins.git",
+    "commit": "16e714b6c3c270065441f3e93b34ae79201badd3",
+    "pluginPath": "machine-status"
+  },
+  "repository": {
+    "url": "https://github.com/ragokan/paseo-plugins",
+    "commit": "16e714b6c3c270065441f3e93b34ae79201badd3"
+  },
+  "categories": [
+    "daemon-management",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-23T15:08:03Z",
+  "submittedBy": "ragokan",
+  "publishedAt": "2026-10-23T15:08:03Z",
+  "reviewedAt": "2026-10-23T15:08:03Z"
+}
