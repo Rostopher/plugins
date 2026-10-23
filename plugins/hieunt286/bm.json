@@ -21,7 +21,6 @@
   "reviewedAt": "2026-10-23T20:31:04Z",
   "listing": {
     "name": "Beads Management",
-    "description": "Coordinate missions across repositories with Main, Worker and Reviewer agents, an Inbox for decisions, and a shared project dashboard.",
     "media": [
       "https://raw.githubusercontent.com/hieunt286/paseo-bm/ab6c56a8561469fd8660780f063d7b03e2bd95b3/plugin-package/images/01-inbox.jpg",
       "https://raw.githubusercontent.com/hieunt286/paseo-bm/ab6c56a8561469fd8660780f063d7b03e2bd95b3/plugin-package/images/02-projects.jpg",

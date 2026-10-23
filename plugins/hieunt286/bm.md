@@ -2,9 +2,17 @@ Beads Management coordinates agent work by mission: one goal across the reposito
 
 Open Missions and choose New mission to name the goal, short code and repositories. Its Main works in a Mission-List project, with one workspace per mission, and assigns work to Workers in the selected repositories. Existing repository Managers are associated with one-repository missions during migration. Mission records, journals, shared project memory, traces and settings are stored on the daemon host. The plugin creates and labels its agent roles and mission workspaces.
 
+Each mission now gets its own branch and worktree for each repository when its first Worker starts there. The repository’s own worktree setup takes precedence. Otherwise, when lockfiles match, the plugin attempts a copy-on-write clone of existing `node_modules` and `.nx/cache`; unsupported filesystems leave that preparation unfinished rather than copying or downloading dependencies. Closing a mission retires its worktrees and offers an archive card; archiving remains your action in Paseo.
+
+For missions already using a shared checkout, a checkpoint card lets you save its current commits, uncommitted changes and untracked files on a separate local branch; ignored files stay out. This runs only when you choose the checkpoint option and leaves your working files, HEAD and normal Git index in place. Pushing and merging the checkpoint remain your responsibility. Review calls also write local Git tree objects from a temporary index to identify the reviewed state.
+
+The mission page offers a standing integration permission for each mission and repository. Granting it allows Workers to push that mission branch to `origin` and open or update its merge request into the chosen integration branch. You can revoke it on the mission page; merging remains on the forge. These workflow rules do not sandbox agents.
+
 Workers run without permission prompts by default (bypass mode on Claude, full access on Codex). Mains also select an available mode without permission prompts. Review changes before committing. Hold risky actions is off by default and can be enabled per project; the plugin’s policy checks are workflow guardrails, not an OS sandbox. Its local tool server uses role/agent bindings to coordinate agents. Allow agent tools is a separate, confirmed, machine-wide Paseo setting that applies to every agent.
 
 The plugin reads project and agent metadata, timelines, repository state and its own workflow records. Mission Mains receive context across their selected repositories, and linked Workers exchange requests and replies through the plugin. This context reaches the selected agents’ model providers. The optional Orchestrator starts only when you start it, reads plugin project context with secrets masked, spends provider tokens, and coordinates process decisions. The governor also tracks mission thresholds and can send a nudge to its Main.
+
+Request-size thresholds can ask a Worker to finish and report remaining work, then create a continuation Worker with the prior report, open questions and links. Structural waits hold routine nudges until their dependency resolves. Review budgets use an owner decision when their cap is reached. Settings control these automation limits.
 
 Setup on Tools & skills shows each operation and asks for confirmation before installing:
 
@@ -13,4 +21,3 @@ Setup on Tools & skills shows each operation and asks for confirmation before in
 
 The update screen checks npm for the latest package version and runs the Paseo plugin update command only after confirmation. Cleanup can remove the plugin’s role configuration and, when selected, its own saved data; it is separate from uninstalling the plugin.
 
-*This plugin entry was imported from [paseo.cafe](https://paseo.cafe/plugins/paseo-bm).*
