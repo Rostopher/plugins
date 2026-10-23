@@ -1,0 +1,20 @@
+{
+  "id": "choquecastrold/seamless-claude-accounts",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ChoqueCastroLD/paseo-seamless-claude-accounts.git",
+    "commit": "f6dbd2574f88d6a2c5c7892f579b19cf7dd781d2"
+  },
+  "repository": {
+    "url": "https://github.com/ChoqueCastroLD/paseo-seamless-claude-accounts",
+    "commit": "f6dbd2574f88d6a2c5c7892f579b19cf7dd781d2"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-23T18:32:33Z",
+  "submittedBy": "ChoqueCastroLD",
+  "publishedAt": "2026-10-23T18:32:33Z",
+  "reviewedAt": "2026-10-23T18:32:33Z"
+}
