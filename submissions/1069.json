@@ -1,0 +1,13 @@
+{
+  "issue": 1069,
+  "title": "Sessions",
+  "submittedBy": "sPablorc",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/sPablorc/paseo-sesiones"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
