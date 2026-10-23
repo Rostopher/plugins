@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-bm-plugin",
-    "version": "0.5.6",
-    "resolved": "https://registry.npmjs.org/paseo-bm-plugin/-/paseo-bm-plugin-0.5.6.tgz",
-    "integrity": "sha512-B0sZ/BEGnIlrZoLnxlrlqYoqdcwr6Gs9Qxquu26/UUD7BlI1c6hws/737KwR0FmcnWv4UpdnlPMVPvTNAUEv7w=="
+    "version": "0.6.0",
+    "resolved": "https://registry.npmjs.org/paseo-bm-plugin/-/paseo-bm-plugin-0.6.0.tgz",
+    "integrity": "sha512-ZVjCnNAkRVltUahR7amBsfaKn8MLoSg52o+vyUDZFl4RDjVLoOwxUX2RsI3A0cWVF4lwHWmCjof6OHygaU4i0g=="
   },
   "repository": {
     "url": "https://github.com/hieunt286/paseo-bm/tree/HEAD/plugin-package",
-    "commit": "7f6abd311b71dee0c7840ca52fa0219ccbd4f5c7"
+    "commit": "b88d57671ecc2975739212706c6070ddd14c4df1"
   },
   "categories": [
     "orchestration",
@@ -18,16 +18,16 @@
   "submittedAt": "2026-09-25",
   "submittedBy": "hieunt286",
   "publishedAt": "2026-09-25",
-  "reviewedAt": "2026-10-15T10:15:56Z",
+  "reviewedAt": "2026-10-23T20:31:04Z",
   "listing": {
+    "name": "Beads Management",
+    "description": "Coordinate missions across repositories with Main, Worker and Reviewer agents, an Inbox for decisions, and a shared project dashboard.",
     "media": [
       "https://raw.githubusercontent.com/hieunt286/paseo-bm/ab6c56a8561469fd8660780f063d7b03e2bd95b3/plugin-package/images/01-inbox.jpg",
       "https://raw.githubusercontent.com/hieunt286/paseo-bm/ab6c56a8561469fd8660780f063d7b03e2bd95b3/plugin-package/images/02-projects.jpg",
       "https://raw.githubusercontent.com/hieunt286/paseo-bm/ab6c56a8561469fd8660780f063d7b03e2bd95b3/plugin-package/images/03-project-beads.jpg",
       "https://raw.githubusercontent.com/hieunt286/paseo-bm/ab6c56a8561469fd8660780f063d7b03e2bd95b3/plugin-package/images/04-settings-autonomy.jpg",
       "https://raw.githubusercontent.com/hieunt286/paseo-bm/ab6c56a8561469fd8660780f063d7b03e2bd95b3/plugin-package/images/05-chat-manager.jpg"
-    ],
-    "description": "Coordinate missions across repositories with Main, Worker and Reviewer agents, an Inbox for decisions, and a shared project dashboard.",
-    "name": "Beads Management"
+    ]
   }
 }
