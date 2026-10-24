@@ -1,0 +1,14 @@
+{
+  "issue": 1135,
+  "title": "Update Strata monitor to v0.2.0",
+  "submittedBy": "delirious6423",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/delirious6423/paseo-strata-monitor",
+    "ref": "v0.2.0"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ]
+}
