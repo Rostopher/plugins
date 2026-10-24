@@ -1,0 +1,14 @@
+{
+  "issue": 1151,
+  "title": "sandbox",
+  "submittedBy": "omercnet",
+  "source": {
+    "kind": "npm",
+    "package": "@omercnet/paseo-sandbox"
+  },
+  "categories": [
+    "daemon-management",
+    "orchestration",
+    "utils"
+  ]
+}
