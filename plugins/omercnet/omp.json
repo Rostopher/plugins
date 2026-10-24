@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "@omercnet/paseo-omp",
-    "version": "3.0.0",
-    "resolved": "https://registry.npmjs.org/@omercnet/paseo-omp/-/paseo-omp-3.0.0.tgz",
-    "integrity": "sha512-eWaShEGQWLtJrjligj48Zfq7IlBim46EGC1mEEBu0D//B4aK9m0KprvKr2Xa6M1KOEFG8YCXsYGib66J/A+cDw=="
+    "version": "4.0.0",
+    "resolved": "https://registry.npmjs.org/@omercnet/paseo-omp/-/paseo-omp-4.0.0.tgz",
+    "integrity": "sha512-CWK9451e76k9BNE5BFr3mRDD88zWQqARV4jkq83rSx0PneHR1O6zcLADnyGeZo4WV1nQ10xChrZ8vNHQ7wEsIw=="
   },
   "repository": {
     "url": "https://github.com/omercnet/paseo-plugins/tree/HEAD/paseo-omp",
-    "commit": "01ba4209e099c0f27a5b85ca6a911def76bc0b2a"
+    "commit": "e57467e4b45eb1d3a78ae9891fd9a3f3e3b9e7c7"
   },
   "categories": [
     "providers"
@@ -17,7 +17,7 @@
   "submittedAt": "2026-09-13",
   "submittedBy": "omercnet",
   "publishedAt": "2026-09-13",
-  "reviewedAt": "2026-10-19T22:12:07Z",
+  "reviewedAt": "2026-10-24T09:39:27Z",
   "listing": {
     "name": "OMP",
     "media": [
