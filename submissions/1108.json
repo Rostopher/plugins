@@ -1,0 +1,14 @@
+{
+  "issue": 1108,
+  "title": "Turn speed",
+  "submittedBy": "52216108",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/52216108/paseo-mesh",
+    "ref": "2c26d02203f2bc5b011e469117d922f33138ed35",
+    "pluginPath": "plugins/turn-speed"
+  },
+  "categories": [
+    "utils"
+  ]
+}
