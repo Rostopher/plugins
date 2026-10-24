@@ -3,9 +3,9 @@
   "artifact": {
     "kind": "npm",
     "package": "@alhassanaraouf/paseo-commandcode-provider",
-    "version": "0.1.4",
-    "resolved": "https://registry.npmjs.org/@alhassanaraouf/paseo-commandcode-provider/-/paseo-commandcode-provider-0.1.4.tgz",
-    "integrity": "sha512-GkT54MW6ufmy6cnTRrRL6xj0T9RHT7bZLiNlr6LAsb4TYr3ucl/qnozAz3/lfMMx6zD/H7TUQzbSIJ/nC909Hw=="
+    "version": "0.2.0",
+    "resolved": "https://registry.npmjs.org/@alhassanaraouf/paseo-commandcode-provider/-/paseo-commandcode-provider-0.2.0.tgz",
+    "integrity": "sha512-fNmdCchgfRVUzp4FZs7Y2s9OVShS0X5XmX3VTDDfvB0UhgffY1zjCNozd8j9bYpaYJQzZD6ED5XlR9XEz5LPvg=="
   },
   "repository": {
     "url": "https://github.com/alhassanaraouf/paseo-commandcode-provider"
@@ -16,7 +16,7 @@
   "submittedAt": "2026-09-12",
   "submittedBy": "alhassanaraouf",
   "publishedAt": "2026-09-12",
-  "reviewedAt": "2026-09-12",
+  "reviewedAt": "2026-10-24T09:37:02Z",
   "listing": {
     "media": [
       "https://raw.githubusercontent.com/alhassanaraouf/paseo-commandcode-provider/e0e5861b6df8c8647308d3e2d1b89ca52165c453/images/composer.png",
