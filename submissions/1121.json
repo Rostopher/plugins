@@ -1,0 +1,15 @@
+{
+  "issue": 1121,
+  "title": "Devices",
+  "submittedBy": "ZedObaia",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/ZedObaia/paseo-plugins",
+    "ref": "fb4ffb82afb368a38e55bd0773a6007e7bf0c1a9",
+    "pluginPath": "plugins/devices"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
