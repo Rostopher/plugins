@@ -1,0 +1,14 @@
+{
+  "issue": 1124,
+  "title": "connected-hosts",
+  "submittedBy": "omercnet",
+  "source": {
+    "kind": "npm",
+    "package": "@omercnet/paseo-connected-hosts"
+  },
+  "categories": [
+    "daemon-management",
+    "orchestration",
+    "sidebar"
+  ]
+}
