@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-kanban",
-    "version": "0.2.1",
-    "resolved": "https://registry.npmjs.org/paseo-kanban/-/paseo-kanban-0.2.1.tgz",
-    "integrity": "sha512-k0PWHj9WfWl405dpbArRLKbd1zUf0dJ9Ng1YCeYM3+JuJhyiu7/5NiM685hjZ3cv1hbU9k8/ltxGXFivayLXsA=="
+    "version": "0.3.0",
+    "resolved": "https://registry.npmjs.org/paseo-kanban/-/paseo-kanban-0.3.0.tgz",
+    "integrity": "sha512-3sCYcD+O8lOi/wmRXVUCrWar0zUKqHrkbuNNF/ZqjLexfJH34woQQJglNnkIh8M+llnRzahiw773FHmCW/ZH/A=="
   },
   "repository": {
     "url": "https://github.com/breathi3552/paseo-kanban",
-    "commit": "65e57009cd2a9f9a16d10c2704780720a432d3d3"
+    "commit": "97b7a222527eb1b33228749274588e59f8877499"
   },
   "categories": [
     "workspaces",
@@ -18,7 +18,7 @@
   "submittedAt": "2026-10-13T17:21:59Z",
   "submittedBy": "breathi3552",
   "publishedAt": "2026-10-13T17:32:23Z",
-  "reviewedAt": "2026-10-18T09:42:50Z",
+  "reviewedAt": "2026-10-24T09:37:52Z",
   "listing": {
     "name": "Kanban",
     "icon": "https://raw.githubusercontent.com/breathi3552/paseo-kanban/7346239bb7161d661fd48717b9ddf4a1cadab464/assets/marketplace/icon.png",
