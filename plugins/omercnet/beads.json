@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "@omercnet/paseo-beads",
-    "version": "2.0.1",
-    "resolved": "https://registry.npmjs.org/@omercnet/paseo-beads/-/paseo-beads-2.0.1.tgz",
-    "integrity": "sha512-LOBLTCp/nhSlbVFQ9E/B6AgeoHPpJ/qLmX9u1e0kR1iuR5RTDz1NOPyGspGXmYK1EN9B6fdDobVX2axLba15BA=="
+    "version": "3.0.0",
+    "resolved": "https://registry.npmjs.org/@omercnet/paseo-beads/-/paseo-beads-3.0.0.tgz",
+    "integrity": "sha512-OIrXEDFw8dgYLJgp40lLEkl8dNqVqQF+DG9mSY39PnrndWUQ7332WE+vDEmyC6k7g6OdVXGr6g2wdd8563xuWw=="
   },
   "repository": {
     "url": "https://github.com/omercnet/paseo-plugins/tree/HEAD/paseo-beads",
-    "commit": "f17eeeaa3b10f8b6cd27891d8e8c7c8ea67061d6"
+    "commit": "e57467e4b45eb1d3a78ae9891fd9a3f3e3b9e7c7"
   },
   "categories": [
     "workspaces"
@@ -17,7 +17,7 @@
   "submittedAt": "2026-09-11",
   "submittedBy": "omercnet",
   "publishedAt": "2026-09-11",
-  "reviewedAt": "2026-10-20T20:42:44Z",
+  "reviewedAt": "2026-10-24T09:39:04Z",
   "listing": {
     "media": [
       "https://raw.githubusercontent.com/omercnet/paseo-plugins/10766d8374dd543ba36a66c2028c3ac3316c4633/paseo-beads/docs/images/paseo-beads-wide.png",
