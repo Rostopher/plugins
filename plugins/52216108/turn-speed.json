@@ -1,0 +1,20 @@
+{
+  "id": "52216108/turn-speed",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/52216108/paseo-mesh.git",
+    "commit": "2c26d02203f2bc5b011e469117d922f33138ed35",
+    "pluginPath": "plugins/turn-speed"
+  },
+  "repository": {
+    "url": "https://github.com/52216108/paseo-mesh",
+    "commit": "2c26d02203f2bc5b011e469117d922f33138ed35"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-24T02:01:10Z",
+  "submittedBy": "52216108",
+  "publishedAt": "2026-10-24T02:01:10Z",
+  "reviewedAt": "2026-10-24T02:01:10Z"
+}
