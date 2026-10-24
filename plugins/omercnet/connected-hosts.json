@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "@omercnet/paseo-connected-hosts",
-    "version": "0.1.0",
-    "resolved": "https://registry.npmjs.org/@omercnet/paseo-connected-hosts/-/paseo-connected-hosts-0.1.0.tgz",
-    "integrity": "sha512-+OIKBgKOJok7v1Q4HorLE24Cu5SkvMcBEkKbpKzuogKbhZqnjncE82Vu1yDPsS7YdWySnCP8O6gCXlQk+9Gu0Q=="
+    "version": "0.1.1",
+    "resolved": "https://registry.npmjs.org/@omercnet/paseo-connected-hosts/-/paseo-connected-hosts-0.1.1.tgz",
+    "integrity": "sha512-z7r9BXJXtTjfHSlwt3wrboOhWp/Bi2+7sADXNXjFSqLwuzC4bEO5wCcD8epIo1oX3GK/VpXZ3YrfLDUo3+NB2g=="
   },
   "repository": {
     "url": "https://github.com/omercnet/paseo-plugins/tree/HEAD/connected-hosts",
-    "commit": "f650fa4a0eb3c8201697e727271516ebc0e5624c"
+    "commit": "34fb3735092af03aeab696e24f39d2036966a044"
   },
   "categories": [
     "daemon-management",
@@ -19,5 +19,5 @@
   "submittedAt": "2026-10-24T14:22:22Z",
   "submittedBy": "omercnet",
   "publishedAt": "2026-10-24T14:31:17Z",
-  "reviewedAt": "2026-10-24T14:31:53Z"
+  "reviewedAt": "2026-10-24T19:34:45Z"
 }
