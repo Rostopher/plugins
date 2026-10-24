@@ -1,0 +1,23 @@
+{
+  "id": "omercnet/connected-hosts",
+  "artifact": {
+    "kind": "npm",
+    "package": "@omercnet/paseo-connected-hosts",
+    "version": "0.1.0",
+    "resolved": "https://registry.npmjs.org/@omercnet/paseo-connected-hosts/-/paseo-connected-hosts-0.1.0.tgz",
+    "integrity": "sha512-+OIKBgKOJok7v1Q4HorLE24Cu5SkvMcBEkKbpKzuogKbhZqnjncE82Vu1yDPsS7YdWySnCP8O6gCXlQk+9Gu0Q=="
+  },
+  "repository": {
+    "url": "https://github.com/omercnet/paseo-plugins/tree/HEAD/connected-hosts",
+    "commit": "f650fa4a0eb3c8201697e727271516ebc0e5624c"
+  },
+  "categories": [
+    "daemon-management",
+    "orchestration",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-24T14:22:22Z",
+  "submittedBy": "omercnet",
+  "publishedAt": "2026-10-24T14:31:17Z",
+  "reviewedAt": "2026-10-24T14:31:53Z"
+}
