@@ -1,0 +1,20 @@
+{
+  "id": "duegin/stats",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/DueGin/paseo-stats.git",
+    "commit": "b54f78aba84ca355527bf925fac30615bd8c5993"
+  },
+  "repository": {
+    "url": "https://github.com/DueGin/paseo-stats",
+    "commit": "b54f78aba84ca355527bf925fac30615bd8c5993"
+  },
+  "categories": [
+    "sidebar",
+    "orchestration"
+  ],
+  "submittedAt": "2026-10-25T18:00:55Z",
+  "submittedBy": "DueGin",
+  "publishedAt": "2026-10-25T18:00:55Z",
+  "reviewedAt": "2026-10-25T18:00:55Z"
+}
