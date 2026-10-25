@@ -1,0 +1,13 @@
+{
+  "issue": 1187,
+  "title": "Usage stats",
+  "submittedBy": "DueGin",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/DueGin/paseo-stats"
+  },
+  "categories": [
+    "orchestration",
+    "sidebar"
+  ]
+}
