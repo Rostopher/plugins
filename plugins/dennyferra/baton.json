@@ -1,13 +1,15 @@
 {
   "id": "dennyferra/baton",
   "artifact": {
-    "kind": "git",
-    "remote": "https://github.com/dennyferra/paseo-baton.git",
-    "commit": "54bd60e619e95526df9933b27a6372f57588851a"
+    "kind": "npm",
+    "package": "paseo-baton",
+    "version": "0.2.1",
+    "resolved": "https://registry.npmjs.org/paseo-baton/-/paseo-baton-0.2.1.tgz",
+    "integrity": "sha512-K25S1IxyIN//XY3ET6zlLdZheLolqrcYyTpy0QVdttXcJ0vpckMQK0CrbAU3jfOWWlzTvm1SaIg78p46A0GJKw=="
   },
   "repository": {
     "url": "https://github.com/dennyferra/paseo-baton",
-    "commit": "54bd60e619e95526df9933b27a6372f57588851a"
+    "commit": "fb67fdccaca02b68f1c841e1b46bb6987927aaab"
   },
   "categories": [
     "orchestration",
@@ -16,5 +18,5 @@
   "submittedAt": "2026-10-23T03:39:36Z",
   "submittedBy": "dennyferra",
   "publishedAt": "2026-10-23T04:04:57Z",
-  "reviewedAt": "2026-10-23T04:04:57Z"
+  "reviewedAt": "2026-10-25T05:31:41Z"
 }
