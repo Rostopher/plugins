@@ -1,0 +1,24 @@
+{
+  "id": "monarchmaisuriya/memorise",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/monarchmaisuriya/memorise.git",
+    "commit": "ef76b4d1dfd0a8250e91cd00ea72dd17165e9810"
+  },
+  "repository": {
+    "url": "https://github.com/monarchmaisuriya/memorise",
+    "commit": "ef76b4d1dfd0a8250e91cd00ea72dd17165e9810"
+  },
+  "categories": [
+    "extras"
+  ],
+  "submittedAt": "2026-10-25T06:26:05Z",
+  "submittedBy": "monarchmaisuriya",
+  "publishedAt": "2026-10-25T06:31:07Z",
+  "reviewedAt": "2026-10-25T07:04:00Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/monarchmaisuriya/memorise/41e186e3e7f983c11efb15428d54b5b7ebdc8505/assets/screenshot.png"
+    ]
+  }
+}

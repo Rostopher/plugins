@@ -1,0 +1,21 @@
+{
+  "id": "julien-bloch/workbench",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/julien-bloch/paseo-workbench.git",
+    "commit": "072ef6f78473f4baee5cb7b9f8ded037f64be8e6"
+  },
+  "repository": {
+    "url": "https://github.com/julien-bloch/paseo-workbench",
+    "commit": "072ef6f78473f4baee5cb7b9f8ded037f64be8e6"
+  },
+  "categories": [
+    "daemon-management",
+    "orchestration",
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-22T19:24:16Z",
+  "submittedBy": "julien-bloch",
+  "publishedAt": "2026-10-24T07:04:59Z",
+  "reviewedAt": "2026-10-24T12:04:39Z"
+}
