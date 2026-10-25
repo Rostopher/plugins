@@ -15,5 +15,10 @@
   "submittedAt": "2026-10-25T10:11:24Z",
   "submittedBy": "monarchmaisuriya",
   "publishedAt": "2026-10-25T10:31:50Z",
-  "reviewedAt": "2026-10-25T10:31:50Z"
+  "reviewedAt": "2026-10-25T10:31:50Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/monarchmaisuriya/computerise/9098edca4efd4b51a518fcd66d3624bd1a4845b1/assets/screenshot.png"
+    ]
+  }
 }
