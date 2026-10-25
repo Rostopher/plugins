@@ -1,0 +1,21 @@
+{
+  "id": "bendavid/pdfjs-viewer",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/bendavid/paseo-pdfjs-viewer.git",
+    "commit": "9390c1051fd62fc947b3d7caf2a29551e2c24cca"
+  },
+  "repository": {
+    "url": "https://github.com/bendavid/paseo-pdfjs-viewer",
+    "commit": "9390c1051fd62fc947b3d7caf2a29551e2c24cca"
+  },
+  "categories": [
+    "sidebar",
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-25T13:41:08Z",
+  "submittedBy": "bendavid",
+  "publishedAt": "2026-10-25T13:41:08Z",
+  "reviewedAt": "2026-10-25T13:41:08Z"
+}
