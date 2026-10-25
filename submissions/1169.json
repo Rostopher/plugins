@@ -1,0 +1,16 @@
+{
+  "issue": 1169,
+  "title": "Project manager",
+  "submittedBy": "wy3z",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/wy3z/paseo-projectmanager"
+  },
+  "categories": [
+    "orchestration",
+    "git",
+    "workspaces",
+    "extras",
+    "utils"
+  ]
+}
