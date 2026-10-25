@@ -1,0 +1,14 @@
+{
+  "issue": 1181,
+  "title": "pdfjs-viewer",
+  "submittedBy": "bendavid",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/bendavid/paseo-pdfjs-viewer"
+  },
+  "categories": [
+    "sidebar",
+    "extras",
+    "utils"
+  ]
+}
