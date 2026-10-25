@@ -46,7 +46,7 @@ function fixture(t: TestContext, path = "") {
   const add = (...args: string[]) => cli("add", "https://github.com/acme/fixture", "--categories", "utils", "--submitted-by", "acme", ...(path ? ["--plugin-path", path] : []), ...args);
   const recordPath = join(registry, "plugins/acme", `${path ? path.split("/").at(-1) : "fixture"}.json`);
   const record = () => JSON.parse(readFileSync(recordPath, "utf8"));
-  return { remote, registry, git, commit, plugin, cli, add, recordPath, record };
+  return { remote, registry, env, git, commit, plugin, cli, add, recordPath, record };
 }
 
 for (const path of ["", "plugins/example"]) {
@@ -189,6 +189,8 @@ test("changed-record review ignores unreachable media on an unchanged listing", 
   assert.equal(f.add("--commit", f.commit).status, 0);
   const old = f.record();
   old.id = "acme/old";
+  old.artifact.remote = "https://github.com/acme/old.git";
+  old.repository.url = "https://github.com/acme/old";
   old.listing = { media: ["https://unrelated-plugin.invalid/image.png"] };
   rmSync(f.recordPath);
   writeFileSync(join(f.registry, "plugins/acme/old.json"), JSON.stringify(old));
@@ -208,4 +210,82 @@ test("changed-record review ignores unreachable media on an unchanged listing", 
   const result = f.cli("validate", "--online", "--changed");
   assert.equal(result.status, 0, result.stderr);
   assert.match(result.stdout, /1 record.*match/);
+});
+
+test("build publishes the other plugins when one pinned source cannot be fetched", (t) => {
+  const f = fixture(t);
+  assert.equal(f.add("--commit", f.commit).status, 0);
+  const missing = { ...f.record(), id: "acme/missing" };
+  missing.artifact.remote = "https://github.com/acme/missing.git";
+  missing.repository.url = "https://github.com/acme/missing";
+  writeFileSync(join(f.registry, "plugins/acme/missing.json"), JSON.stringify(missing));
+  const env = {
+    ...f.env,
+    GIT_CONFIG_COUNT: "2",
+    GIT_CONFIG_KEY_1: `url.file://${join(f.remote, "..", "missing")}.insteadOf`,
+    GIT_CONFIG_VALUE_1: "https://github.com/acme/missing.git",
+  };
+  const build = spawnSync(process.execPath, ["scripts/build.ts"], { cwd: f.registry, env, encoding: "utf8" });
+  assert.equal(build.status, 0, build.stderr);
+  assert.match(build.stderr, /Skipped acme\/missing: .*acme\/missing\.git/);
+  assert.match(build.stdout, /1 plugin\(s\), 1 skipped/);
+  assert.equal(existsSync(join(f.registry, "dist/plugins/acme/missing.json")), false);
+  const detail = JSON.parse(readFileSync(join(f.registry, "dist/plugins/acme/fixture.json"), "utf8"));
+  assert.equal(detail.readme, "A fixture plugin.");
+  const index = JSON.parse(readFileSync(join(f.registry, "dist/index.json"), "utf8"));
+  assert.deepEqual(index.plugins.map((plugin: { id: string }) => plugin.id), ["acme/fixture"]);
+
+  // Every record failing is a registry-wide outage, not a plugin problem: never deploy an empty index.
+  rmSync(f.recordPath);
+  const empty = spawnSync(process.execPath, ["scripts/build.ts"], { cwd: f.registry, env, encoding: "utf8" });
+  assert.notEqual(empty.status, 0);
+  assert.match(empty.stderr, /Skipped acme\/missing/);
+});
+
+test("localized Git build preserves v1 defaults and selects changes to reviewer translations", (t) => {
+  const f = fixture(t, "plugins/example");
+  writeFileSync(join(f.plugin, "paseo-plugin.json"), JSON.stringify({
+    name: "Example", description: "English description",
+    translations: { "zh-CN": { name: "示例", description: "中文描述" } },
+  }));
+  writeFileSync(join(f.plugin, "OVERVIEW.zh-CN.md"), "作者概述");
+  f.git("add", "."); f.git("commit", "-qm", "translations");
+  const reviewed = f.git("rev-parse", "HEAD");
+  writeFileSync(join(f.plugin, "OVERVIEW.zh-CN.md"), "Unreviewed HEAD translation");
+  f.git("add", "."); f.git("commit", "-qm", "unreviewed");
+  assert.equal(f.add("--commit", reviewed).status, 0);
+  const record = f.record();
+  record.listing = { translations: { "zh-CN": { name: "审阅名称" } } };
+  writeFileSync(f.recordPath, JSON.stringify(record));
+  writeFileSync(f.recordPath.replace(/\.json$/, ".zh-CN.md"), "Registry Chinese fallback");
+  writeFileSync(f.recordPath.replace(/\.json$/, ".fr.md"), "Présentation du réviseur");
+  const build = f.cli("build");
+  assert.equal(build.status, 0, build.stderr);
+  const index = JSON.parse(readFileSync(join(f.registry, "dist/index.json"), "utf8"));
+  const detail = JSON.parse(readFileSync(join(f.registry, "dist/plugins/acme/example.json"), "utf8"));
+  assert.equal(index.schemaVersion, 1);
+  assert.equal(detail.name, "Example"); assert.equal(detail.description, "English description");
+  assert.equal(detail.readme, "A fixture plugin.");
+  assert.deepEqual(detail.translations, { "zh-CN": { name: "审阅名称", description: "中文描述" } });
+  assert.deepEqual(detail.overviewTranslations, { "zh-CN": "作者概述", fr: "Présentation du réviseur" });
+  const { readme, overviewTranslations, ...summary } = detail;
+  assert.deepEqual(index.plugins, [summary]);
+  // Old consumers still use the same string fields and installation pin.
+  assert.equal(typeof summary.name, "string"); assert.equal(typeof summary.description, "string");
+  assert.equal(detail.artifact.commit, reviewed);
+  const git = (...args: string[]) => {
+    const r = spawnSync("git", args, { cwd: f.registry, encoding: "utf8" });
+    assert.equal(r.status, 0, r.stderr);
+  };
+  git("init", "-q"); git("config", "user.name", "Test"); git("config", "user.email", "test@example.com");
+  git("add", "plugins"); git("commit", "-qm", "reviewed");
+  git("update-ref", "refs/remotes/origin/main", "HEAD");
+  writeFileSync(f.recordPath.replace(/\.json$/, ".fr.md"), "Présentation mise à jour");
+  git("add", "plugins"); git("commit", "-qm", "reviewer translation");
+  const checked = f.cli("validate", "--online", "--changed");
+  assert.equal(checked.status, 0, checked.stderr);
+  assert.match(checked.stdout, /1 record\(s\) match/);
+  writeFileSync(f.recordPath.replace(/\.json$/, ".zh-cn.md"), "Invalid locale");
+  const auxiliary = f.cli("validate");
+  assert.equal(auxiliary.status, 0, auxiliary.stderr);
 });

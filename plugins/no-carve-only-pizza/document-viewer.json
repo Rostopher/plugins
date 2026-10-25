@@ -1,0 +1,21 @@
+{
+  "id": "no-carve-only-pizza/document-viewer",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/no-carve-only-pizza/paseo-document-viewer.git",
+    "commit": "6ece4e367c41f6c3dbad47c666a32b714ad9e203",
+    "tag": "v0.3.0"
+  },
+  "repository": {
+    "url": "https://github.com/no-carve-only-pizza/paseo-document-viewer",
+    "commit": "6ece4e367c41f6c3dbad47c666a32b714ad9e203"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-12T06:05:37Z",
+  "submittedBy": "no-carve-only-pizza",
+  "publishedAt": "2026-10-18T06:08:31Z",
+  "reviewedAt": "2026-10-18T06:08:31Z"
+}

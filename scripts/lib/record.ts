@@ -1,9 +1,10 @@
+import { parseTranslations, type ListingTranslations } from "./translations.ts";
 import { mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { githubOwner } from "./repository.ts";
 import { parseMedia } from "./media.ts";
-import { isRecordDate, RECORD_DATE_FORMAT } from "./dates.ts";
+import { isRecordDate, isRecordTimestamp, RECORD_DATE_FORMAT, recordTime } from "./dates.ts";
 
 /** One file in plugins/. Humans edit categories and listing; the bot writes the rest. */
 export interface PluginRecord {
@@ -27,6 +28,7 @@ export interface PluginRecord {
 }
 
 export interface PluginListingOverrides {
+  translations?: ListingTranslations;
   name?: string;
   description?: string;
   icon?: string;
@@ -135,6 +137,10 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
       problems.push("listing must be an object");
     } else {
       listing = {};
+      if (raw.translations !== undefined) {
+        try { listing.translations = parseTranslations(raw.translations); }
+        catch (error) { problems.push(`listing.${(error as Error).message}`); }
+      }
       if (raw.name !== undefined) {
         if (typeof raw.name !== "string" || !raw.name.trim())
           problems.push("listing.name must be a non-empty string");
@@ -155,7 +161,7 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
         catch (error) { problems.push(`listing.${(error as Error).message}`); }
       }
       for (const key of Object.keys(raw)) {
-        if (!["name", "description", "icon", "media"].includes(key))
+        if (!["name", "description", "icon", "media", "translations"].includes(key))
           problems.push(`unknown field "listing.${key}"`);
       }
     }
@@ -173,6 +179,38 @@ export function parseRecord(raw: unknown, knownCategories: Set<string>): PluginR
     reviewedAt,
     ...(listing ? { listing } : {}),
   };
+}
+
+const RECORD_DATES = ["submittedAt", "publishedAt", "reviewedAt"] as const;
+
+/**
+ * Date rules across a change, against the record as listed on main (absent for a new record):
+ * submission and first listing times never change, and every date the change writes carries the time.
+ */
+export function recordDateProblems(record: PluginRecord, listed: Record<string, unknown> | undefined): string[] {
+  const problems: string[] = [];
+  for (const key of ["submittedAt", "publishedAt"] as const) {
+    if (listed && listed[key] !== record[key])
+      problems.push(`${key} must stay ${JSON.stringify(listed[key])}; an update moves reviewedAt only`);
+  }
+  for (const key of RECORD_DATES) {
+    if (record[key] !== listed?.[key] && !isRecordTimestamp(record[key]))
+      problems.push(`${key} must be a UTC timestamp, such as ${recordTime()}`);
+  }
+  return problems;
+}
+
+/**
+ * The thing a record lists, so one package or one plugin directory of one repository
+ * is listed once: `package "@omercnet/paseo-dracula"` or
+ * `repository "https://github.com/linhmh8/agent-lobby"` (with `/path` for a subdirectory).
+ */
+export function artifactKey(
+  artifact: { kind: "npm"; package: string } | { kind: "git"; remote: string; pluginPath?: string },
+): string {
+  if (artifact.kind === "npm") return `package "${artifact.package}"`;
+  const remote = artifact.remote.toLowerCase().replace(/\.git$/, "");
+  return `repository "${artifact.pluginPath ? `${remote}/${artifact.pluginPath}` : remote}"`;
 }
 
 export function recordPath(id: string, dir = RECORDS_DIR): string {
@@ -200,16 +238,16 @@ export function readRecords(knownCategories: Set<string>, dir = RECORDS_DIR): Pl
     }
   }
   const ids = new Map<string, number>();
-  const packages = new Map<string, number>();
+  const artifacts = new Map<string, number>();
   for (const record of records) {
     ids.set(record.id, (ids.get(record.id) ?? 0) + 1);
-    if (record.artifact.kind === "npm")
-      packages.set(record.artifact.package, (packages.get(record.artifact.package) ?? 0) + 1);
+    const key = artifactKey(record.artifact);
+    artifacts.set(key, (artifacts.get(key) ?? 0) + 1);
   }
   for (const [id, count] of ids)
     if (count > 1) problems.push(`id "${id}" is listed ${count} times`);
-  for (const [pkg, count] of packages)
-    if (count > 1) problems.push(`package "${pkg}" is listed ${count} times`);
+  for (const [key, count] of artifacts)
+    if (count > 1) problems.push(`${key} is listed ${count} times`);
   if (problems.length > 0) throw new Error(problems.join("\n"));
   return records;
 }

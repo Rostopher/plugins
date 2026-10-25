@@ -10,4 +10,9 @@ export function isRecordDate(value: unknown): value is string {
     && !Number.isNaN(Date.parse(value));
 }
 
+/** Records written before timestamps carry only the day; new and changed dates must carry the time. */
+export function isRecordTimestamp(value: string): boolean {
+  return isRecordDate(value) && value.includes("T");
+}
+
 export const RECORD_DATE_FORMAT = "YYYY-MM-DD or an ISO 8601 timestamp with a time zone";

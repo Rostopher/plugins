@@ -1,0 +1,20 @@
+{
+  "id": "spablorc/sesiones",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sPablorc/paseo-sesiones.git",
+    "commit": "edb13ccb2d1262081adef131afcbeaad47f61c82"
+  },
+  "repository": {
+    "url": "https://github.com/sPablorc/paseo-sesiones",
+    "commit": "edb13ccb2d1262081adef131afcbeaad47f61c82"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-23T10:12:03Z",
+  "submittedBy": "sPablorc",
+  "publishedAt": "2026-10-23T10:39:48Z",
+  "reviewedAt": "2026-10-23T10:39:48Z"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "4fthawaiian/todo-board",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/4fthawaiian/paseo-todo-board.git",
+    "commit": "dbe80a5ae79d668dfc9f68cb6388e382319ed628"
+  },
+  "repository": {
+    "url": "https://github.com/4fthawaiian/paseo-todo-board",
+    "commit": "dbe80a5ae79d668dfc9f68cb6388e382319ed628"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-16T03:50:55Z",
+  "submittedBy": "4fthawaiian",
+  "publishedAt": "2026-10-20T09:36:34Z",
+  "reviewedAt": "2026-10-20T09:36:34Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/4fthawaiian/paseo-todo-board/f68e5302af2e24a93286134019b76e75151deabc/assets/board.png"
+    ]
+  }
+}

@@ -21,3 +21,11 @@ export function readPackageFile(archive: Buffer, path: string): string | null {
   }
   return tar(["-xOzf", "-", "--", entry]);
 }
+
+/** Paths in the package, read from the archive without extracting files or following links. */
+export function listPackageFiles(archive: Buffer): string[] {
+  return execFileSync("tar", ["-tzf", "-"], { input: archive, encoding: "utf8", maxBuffer: 32 * 1024 * 1024 })
+    .split("\n").map((path) => path.replace(/^\.\//, ""))
+    .filter((path) => path.startsWith("package/"))
+    .map((path) => path.slice("package/".length));
+}

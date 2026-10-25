@@ -1,6 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
-import { readPackageFile } from "./npm-artifact.ts";
+import { listPackageFiles, readPackageFile } from "./npm-artifact.ts";
 import { AuthorError } from "./problems.ts";
 
 export interface VersionDoc {
@@ -31,6 +31,8 @@ export interface NpmClient {
   packument(name: string): Promise<Packument>;
   /** A file from the published tarball at an exact version, or null when it is not in the package. */
   file(name: string, version: string, path: string): Promise<string | null>;
+  /** Paths from the same integrity-verified tarball used by file(). */
+  files(name: string, version: string): Promise<string[]>;
   /** Source facts from a verified publish attestation, or null when the version has none. */
   provenance(name: string, version: string): Promise<Provenance | null>;
   tarball(url: string, destination: string): Promise<void>;
@@ -99,6 +101,9 @@ export function createNpmClient(fetchImpl: typeof fetch = fetch): NpmClient {
     packument,
     async file(name, version, path) {
       return readPackageFile(await artifact(name, version), path);
+    },
+    async files(name, version) {
+      return listPackageFiles(await artifact(name, version));
     },
     async provenance(name, version) {
       const encoded = name.replace("/", "%2F");

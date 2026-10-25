@@ -1,0 +1,23 @@
+{
+  "id": "wy3z/projectmanager",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/wy3z/paseo-projectmanager.git",
+    "commit": "ac78bf31624727c0ab056e5067109b9996175474"
+  },
+  "repository": {
+    "url": "https://github.com/wy3z/paseo-projectmanager",
+    "commit": "ac78bf31624727c0ab056e5067109b9996175474"
+  },
+  "categories": [
+    "orchestration",
+    "git",
+    "workspaces",
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-25T07:13:01Z",
+  "submittedBy": "wy3z",
+  "publishedAt": "2026-10-25T07:31:37Z",
+  "reviewedAt": "2026-10-25T07:31:37Z"
+}

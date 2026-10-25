@@ -1,0 +1,23 @@
+{
+  "id": "sojuhub/pele",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sojuhub/paseo-plugin-pele.git",
+    "commit": "c28ea8281e71305d618d45812a7c1c9fe9ee00e8",
+    "tag": "v0.2.1"
+  },
+  "repository": {
+    "url": "https://github.com/sojuhub/paseo-plugin-pele",
+    "commit": "c28ea8281e71305d618d45812a7c1c9fe9ee00e8"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar",
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-20T16:05:18Z",
+  "submittedBy": "sojuhub",
+  "publishedAt": "2026-10-20T16:31:27Z",
+  "reviewedAt": "2026-10-23T19:03:04Z"
+}

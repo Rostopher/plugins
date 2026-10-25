@@ -1,0 +1,20 @@
+{
+  "id": "tlamadon/pdf-viewer",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/tlamadon/paseo-pdf-viewer.git",
+    "commit": "468a0490ae343773a9cb729178c436087ac7b5a9"
+  },
+  "repository": {
+    "url": "https://github.com/tlamadon/paseo-pdf-viewer",
+    "commit": "468a0490ae343773a9cb729178c436087ac7b5a9"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-19T19:42:55Z",
+  "submittedBy": "tlamadon",
+  "publishedAt": "2026-10-19T20:01:31Z",
+  "reviewedAt": "2026-10-19T20:01:31Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lardissone/lific",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/lardissone/paseo-lific.git",
+    "commit": "95b74d723b4cca0ebf0e479f82f5ff111218a59c"
+  },
+  "repository": {
+    "url": "https://github.com/lardissone/paseo-lific",
+    "commit": "95b74d723b4cca0ebf0e479f82f5ff111218a59c"
+  },
+  "categories": [
+    "orchestration",
+    "git",
+    "workspaces",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-19T18:30:24Z",
+  "submittedBy": "lardissone",
+  "publishedAt": "2026-10-19T18:33:14Z",
+  "reviewedAt": "2026-10-19T18:33:14Z"
+}

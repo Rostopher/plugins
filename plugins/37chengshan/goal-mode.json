@@ -1,0 +1,20 @@
+{
+  "id": "37chengshan/goal-mode",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/37chengshan/paseo-goal-mode.git",
+    "commit": "afd07503494c13746a5ca676f6990a9d3db71520"
+  },
+  "repository": {
+    "url": "https://github.com/37chengshan/paseo-goal-mode",
+    "commit": "afd07503494c13746a5ca676f6990a9d3db71520"
+  },
+  "categories": [
+    "orchestration",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-19T13:26:05Z",
+  "submittedBy": "37chengshan",
+  "publishedAt": "2026-10-19T13:31:23Z",
+  "reviewedAt": "2026-10-19T13:31:23Z"
+}

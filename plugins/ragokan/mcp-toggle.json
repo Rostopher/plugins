@@ -1,0 +1,21 @@
+{
+  "id": "ragokan/mcp-toggle",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ragokan/paseo-plugins.git",
+    "commit": "16e714b6c3c270065441f3e93b34ae79201badd3",
+    "pluginPath": "mcp-toggle"
+  },
+  "repository": {
+    "url": "https://github.com/ragokan/paseo-plugins",
+    "commit": "16e714b6c3c270065441f3e93b34ae79201badd3"
+  },
+  "categories": [
+    "daemon-management",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-23T15:06:13Z",
+  "submittedBy": "ragokan",
+  "publishedAt": "2026-10-23T15:06:13Z",
+  "reviewedAt": "2026-10-23T15:06:13Z"
+}

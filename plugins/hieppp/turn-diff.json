@@ -1,0 +1,28 @@
+{
+  "id": "hieppp/turn-diff",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/HiepPP/hiep-paseo-plugin.git",
+    "commit": "6420829605cd53385bf185723ab5d99f63a2c2f8",
+    "pluginPath": "plugins/turn-diff"
+  },
+  "repository": {
+    "url": "https://github.com/HiepPP/hiep-paseo-plugin",
+    "commit": "6420829605cd53385bf185723ab5d99f63a2c2f8"
+  },
+  "categories": [
+    "git",
+    "workspaces"
+  ],
+  "submittedAt": "2026-10-20T07:16:58Z",
+  "submittedBy": "HiepPP",
+  "publishedAt": "2026-10-20T07:37:46Z",
+  "reviewedAt": "2026-10-20T07:37:46Z",
+  "listing": {
+    "description": "Adds a card after each agent turn showing changed files and commits, with a panel for that turn’s diffs.",
+    "media": [
+      "https://raw.githubusercontent.com/HiepPP/hiep-paseo-plugin/6420829605cd53385bf185723ab5d99f63a2c2f8/plugins/turn-diff/assets/turn-diff-card.png",
+      "https://raw.githubusercontent.com/HiepPP/hiep-paseo-plugin/6420829605cd53385bf185723ab5d99f63a2c2f8/plugins/turn-diff/assets/turn-diff-panel.png"
+    ]
+  }
+}

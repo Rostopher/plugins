@@ -1,0 +1,21 @@
+{
+  "id": "sbhas2k/cache-meter",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sbhas2k/paseo-plugins.git",
+    "commit": "f433cbe0acd49262a46f186a524d2d527219685a",
+    "pluginPath": "cache-meter"
+  },
+  "repository": {
+    "url": "https://github.com/sbhas2k/paseo-plugins",
+    "commit": "f433cbe0acd49262a46f186a524d2d527219685a"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-21T07:20:40Z",
+  "submittedBy": "sbhas2k",
+  "publishedAt": "2026-10-21T07:21:54Z",
+  "reviewedAt": "2026-10-21T07:21:54Z"
+}

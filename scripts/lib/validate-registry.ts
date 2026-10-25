@@ -3,8 +3,8 @@ import { validateArtifact } from "./validate-artifact.ts";
 import { categorySlugs, readCategories } from "./categories.ts";
 import { readFeatured } from "./featured.ts";
 import { createNpmClient, type NpmClient } from "./npm.ts";
-import { readOverview } from "./overview.ts";
-import { readRecords } from "./record.ts";
+import { readOverview, readOverviewTranslations } from "./overview.ts";
+import { readRecords, recordDateProblems } from "./record.ts";
 import { checkMediaUrls } from "./media.ts";
 import { git } from "./shell.ts";
 
@@ -30,7 +30,7 @@ export async function validateRegistry(options: {
   const known = categorySlugs(readCategories());
   const records = readRecords(known);
   readFeatured(records);
-  for (const record of records) readOverview(record.id);
+  for (const record of records) { readOverview(record.id); readOverviewTranslations(record.id); }
   console.log(`${records.length} record(s) are well-formed`);
   if (!online) return;
 
@@ -41,9 +41,13 @@ export async function validateRegistry(options: {
       git(["diff", "--name-only", `${baseCommit}...HEAD`, "--", "plugins/"])
         .split("\n")
         .filter(Boolean)
-        .map((path) => path.replace(/^plugins\//, "").replace(/\.(?:json|md)$/, "")),
+        .map((path) => path.replace(/^plugins\//, "").replace(/\.(?:json|md)$/, "").replace(/\.[^.]+$/, "")),
     );
     selected = records.filter((record) => changed.has(record.id));
+    const dateProblems = selected.flatMap((record) =>
+      recordDateProblems(record, listedRecord(baseCommit, record.id))
+        .map((message) => ({ id: record.id, error: new Error(message) })));
+    if (dateProblems.length) throw new RegistryValidationError(dateProblems);
   }
 
   const mediaProblems = await checkMediaUrls(selected.flatMap((record) => record.listing?.media ?? []));
@@ -69,4 +73,11 @@ export async function validateRegistry(options: {
     throw new RegistryValidationError(problems);
   }
   console.log(`${selected.length} record(s) match their pinned artifacts`);
+}
+
+/** The record as listed at the base commit, or undefined when it is new. */
+function listedRecord(commit: string, id: string): Record<string, unknown> | undefined {
+  const path = `plugins/${id}.json`;
+  if (!git(["ls-tree", "--name-only", commit, "--", path])) return undefined;
+  return JSON.parse(git(["show", `${commit}:${path}`]));
 }

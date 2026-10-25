@@ -3,12 +3,12 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/Laokashouji/paseo-turn-changes.git",
-    "commit": "21cf7b9ca742b664c1c6cdb350a5e1666a6e11b0",
-    "tag": "v0.1.6"
+    "commit": "fe32893c09a46a766741163ae8043d50ed678117",
+    "tag": "v0.1.7"
   },
   "repository": {
     "url": "https://github.com/Laokashouji/paseo-turn-changes",
-    "commit": "21cf7b9ca742b664c1c6cdb350a5e1666a6e11b0"
+    "commit": "fe32893c09a46a766741163ae8043d50ed678117"
   },
   "categories": [
     "git",
@@ -17,7 +17,7 @@
   "submittedAt": "2026-09-14",
   "submittedBy": "Laokashouji",
   "publishedAt": "2026-09-14",
-  "reviewedAt": "2026-10-08",
+  "reviewedAt": "2026-10-20T04:02:13Z",
   "listing": {
     "media": [
       "https://raw.githubusercontent.com/Laokashouji/paseo-turn-changes/47b011d02fd04b963438fb24b19ad5e46734b687/images/01-turn-card.png",

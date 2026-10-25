@@ -1,3 +1,4 @@
+import { parseTranslations, mergeTranslations, type ListingTranslations } from "./translations.ts";
 import type { ArtifactFiles } from "./artifact-files.ts";
 import { mediaKind } from "./media.ts";
 import { AuthorError } from "./problems.ts";
@@ -5,6 +6,7 @@ import type { PluginRecord } from "./record.ts";
 
 export interface PluginMetadata {
   name: string;
+  translations?: ListingTranslations;
   description: string;
   icon?: string;
   media: string[];
@@ -32,6 +34,7 @@ function readMetadata(text: string | null, record: PluginRecord, base: string, p
   } catch {
     throw new AuthorError("paseo-plugin.json must be a JSON object. Fix the manifest and publish a new release.");
   }
+  const translations = mergeTranslations(manifest.translations === undefined ? {} : parseTranslations(manifest.translations), record.listing?.translations);
   const name = manifest.name;
   if (name !== undefined && (typeof name !== "string" || !name.trim())) invalid("name", "a non-empty string");
   const icon = manifest.icon;
@@ -55,6 +58,7 @@ function readMetadata(text: string | null, record: PluginRecord, base: string, p
   const selectedIcon = record.listing?.icon ?? (icon as string | undefined);
   const selectedMedia = record.listing?.media ?? (media as string[] | undefined) ?? [];
   return {
+    ...(Object.keys(translations).length ? { translations } : {}),
     name: record.listing?.name ?? (name as string | undefined) ?? humanizeId(record.id),
     description: record.listing?.description
       ?? packageDescription

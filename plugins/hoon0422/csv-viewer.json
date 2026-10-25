@@ -1,0 +1,19 @@
+{
+  "id": "hoon0422/csv-viewer",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/hoon0422/paseo-csv-viewer.git",
+    "commit": "6f02c221d372b56de9d8c08bbafc46f3cf547e9a"
+  },
+  "repository": {
+    "url": "https://github.com/hoon0422/paseo-csv-viewer",
+    "commit": "6f02c221d372b56de9d8c08bbafc46f3cf547e9a"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-22T17:37:50Z",
+  "submittedBy": "hoon0422",
+  "publishedAt": "2026-10-22T18:03:54Z",
+  "reviewedAt": "2026-10-22T18:03:54Z"
+}

@@ -17,6 +17,7 @@ const client: NpmClient = {
     };
   },
   async file(_name, _version, path) { return path === "paseo-plugin.json" ? "{}" : null; },
+  async files() { return []; },
   async provenance() { return null; },
   async tarball() { throw new Error("Not needed"); },
 };

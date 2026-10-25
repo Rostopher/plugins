@@ -1,0 +1,27 @@
+{
+  "id": "tomgrin10/transfer",
+  "artifact": {
+    "kind": "npm",
+    "package": "paseo-transfer",
+    "version": "1.2.0",
+    "resolved": "https://registry.npmjs.org/paseo-transfer/-/paseo-transfer-1.2.0.tgz",
+    "integrity": "sha512-3+D5Cx4sWg5YN7M6J0gKfikU2dhva9Ovx02eLThRW1AKQpBPLTQmOgznt98wwmBZZrcN1FOfAakDaG95ylN3xA=="
+  },
+  "repository": {
+    "url": "https://github.com/tomgrin10/paseo-transfer",
+    "commit": "d7c735f6cdab0cba5fa6f02103d69ad988201ccd"
+  },
+  "categories": [
+    "orchestration"
+  ],
+  "submittedAt": "2026-10-12T10:24:18Z",
+  "submittedBy": "tomgrin10",
+  "reviewedAt": "2026-10-23T13:05:02Z",
+  "listing": {
+    "name": "Transfer",
+    "media": [
+      "https://cdn.jsdelivr.net/npm/paseo-transfer@1.2.0/docs/screenshots/transfer.png"
+    ]
+  },
+  "publishedAt": "2026-10-23T13:05:02Z"
+}

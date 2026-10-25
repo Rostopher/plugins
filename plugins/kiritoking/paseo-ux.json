@@ -1,0 +1,27 @@
+{
+  "id": "kiritoking/paseo-ux",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/KiritoKing/paseo-plugins.git",
+    "commit": "49521113707d200cad826a7361361f2221222bd6",
+    "pluginPath": "packages/paseo-ux"
+  },
+  "repository": {
+    "url": "https://github.com/KiritoKing/paseo-plugins",
+    "commit": "49521113707d200cad826a7361361f2221222bd6"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-21T06:31:58Z",
+  "submittedBy": "KiritoKing",
+  "publishedAt": "2026-10-21T07:03:48Z",
+  "reviewedAt": "2026-10-21T10:18:40Z",
+  "listing": {
+    "media": [
+      "https://img.chlorinec.top/obsidian/v2/images/paseo-essentials-cover-7c8271e0e26e1051d1f8.png",
+      "https://img.chlorinec.top/obsidian/v2/images/paseo-essentials-0.3.0-attachments-99a403922007f9ae72ff.jpg"
+    ]
+  }
+}

@@ -3,9 +3,9 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-theme-studio",
-    "version": "0.7.0",
-    "resolved": "https://registry.npmjs.org/paseo-theme-studio/-/paseo-theme-studio-0.7.0.tgz",
-    "integrity": "sha512-7RWLoNxLILYPD6oVsUBIhyjEQElmb1+dJJUrejYrAded4xywtPLsitouI/jl5nYdTBG5FF97Jl3IIIjD/TbQ0A=="
+    "version": "0.8.1",
+    "resolved": "https://registry.npmjs.org/paseo-theme-studio/-/paseo-theme-studio-0.8.1.tgz",
+    "integrity": "sha512-6EzUlDTjVVwRpM45BdP6zwXQdWTdqgZtdy6Oz6Z826SAyJTtzURVg3t0B8HHqIV7DG0fRX+jW2W5WCp5RBG9Nw=="
   },
   "repository": {
     "url": "https://github.com/Gabsplat/paseo-theme-studio"
@@ -17,15 +17,15 @@
   "submittedAt": "2026-10-07",
   "submittedBy": "Gabsplat",
   "publishedAt": "2026-10-08",
-  "reviewedAt": "2026-10-08",
+  "reviewedAt": "2026-10-19T21:35:47Z",
   "listing": {
     "name": "Theme Studio",
     "media": [
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/studio.png",
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/packs.png",
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/design.png",
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/mobile.png",
-      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.7.0/images/component.png"
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/studio.png",
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/packs.png",
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/design.png",
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/mobile.png",
+      "https://cdn.jsdelivr.net/npm/paseo-theme-studio@0.8.1/images/component.png"
     ]
   }
 }

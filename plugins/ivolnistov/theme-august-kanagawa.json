@@ -1,0 +1,19 @@
+{
+  "id": "ivolnistov/theme-august-kanagawa",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/ivolnistov/paseo-theme-august-kanagawa.git",
+    "commit": "b16d0ba3730813f47c07e420baf9cab0411b1aad"
+  },
+  "repository": {
+    "url": "https://github.com/ivolnistov/paseo-theme-august-kanagawa",
+    "commit": "b16d0ba3730813f47c07e420baf9cab0411b1aad"
+  },
+  "categories": [
+    "themes"
+  ],
+  "submittedAt": "2026-10-21T05:55:26Z",
+  "submittedBy": "ivolnistov",
+  "publishedAt": "2026-10-21T06:01:56Z",
+  "reviewedAt": "2026-10-22T13:02:03Z"
+}

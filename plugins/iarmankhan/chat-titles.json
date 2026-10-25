@@ -1,0 +1,20 @@
+{
+  "id": "iarmankhan/chat-titles",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/iarmankhan/paseo-chat-titles.git",
+    "commit": "4b7519e10b676843edf945179f90f2112915dd7f",
+    "tag": "v1.0.0"
+  },
+  "repository": {
+    "url": "https://github.com/iarmankhan/paseo-chat-titles",
+    "commit": "4b7519e10b676843edf945179f90f2112915dd7f"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-22T05:31:28Z",
+  "submittedBy": "iarmankhan",
+  "publishedAt": "2026-10-22T05:31:28Z",
+  "reviewedAt": "2026-10-22T05:31:28Z"
+}

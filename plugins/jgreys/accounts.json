@@ -1,0 +1,21 @@
+{
+  "id": "jgreys/accounts",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/jgreys/paseo-accounts.git",
+    "commit": "91367b15ff6f4ca233d407d2d180177c9f404506",
+    "tag": "v1.0.4"
+  },
+  "repository": {
+    "url": "https://github.com/jgreys/paseo-accounts",
+    "commit": "91367b15ff6f4ca233d407d2d180177c9f404506"
+  },
+  "categories": [
+    "providers",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-20T13:51:08Z",
+  "submittedBy": "jgreys",
+  "publishedAt": "2026-10-20T14:03:24Z",
+  "reviewedAt": "2026-10-21T08:02:09Z"
+}

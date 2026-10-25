@@ -1,0 +1,20 @@
+{
+  "id": "52216108/turn-speed",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/52216108/paseo-plugins.git",
+    "commit": "2b8d5648494f2bdf8362874055a5bfb3f1a2323f",
+    "pluginPath": "turn-speed"
+  },
+  "repository": {
+    "url": "https://github.com/52216108/paseo-plugins",
+    "commit": "2b8d5648494f2bdf8362874055a5bfb3f1a2323f"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-24T02:01:10Z",
+  "submittedBy": "52216108",
+  "publishedAt": "2026-10-24T02:01:10Z",
+  "reviewedAt": "2026-10-25T06:36:23Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "lefos13/claude-accounts-usage",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/lefos13/paseo-plugin-claude-accounts.git",
+    "commit": "1e9f60c6986f35741403bff4de61ea3b653cfdb5"
+  },
+  "repository": {
+    "url": "https://github.com/lefos13/paseo-plugin-claude-accounts",
+    "commit": "1e9f60c6986f35741403bff4de61ea3b653cfdb5"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-22T10:30:58Z",
+  "submittedBy": "lefos13",
+  "publishedAt": "2026-10-22T10:40:33Z",
+  "reviewedAt": "2026-10-22T10:40:33Z",
+  "listing": {
+    "name": "Claude usage",
+    "description": "Shows subscription usage windows, reset times and account details for Claude Code logins configured in Paseo.",
+    "media": [
+      "https://raw.githubusercontent.com/lefos13/paseo-plugin-claude-accounts/1e9f60c6986f35741403bff4de61ea3b653cfdb5/images/01-accounts-screen.jpg"
+    ]
+  }
+}

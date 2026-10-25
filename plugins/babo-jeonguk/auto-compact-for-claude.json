@@ -1,0 +1,20 @@
+{
+  "id": "babo-jeonguk/auto-compact-for-claude",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/babo-jeonguk/paseo-auto-compact-for-claude.git",
+    "commit": "1a1fbf58a1eb57c2c5f906aeea2459850f311558",
+    "tag": "v1.0.1"
+  },
+  "repository": {
+    "url": "https://github.com/babo-jeonguk/paseo-auto-compact-for-claude",
+    "commit": "1a1fbf58a1eb57c2c5f906aeea2459850f311558"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-22T07:32:11Z",
+  "submittedBy": "babo-jeonguk",
+  "publishedAt": "2026-10-22T07:32:11Z",
+  "reviewedAt": "2026-10-22T13:04:19Z"
+}

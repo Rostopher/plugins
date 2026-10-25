@@ -1,0 +1,21 @@
+{
+  "id": "mbranicky/cypress-pulse",
+  "artifact": {
+    "kind": "npm",
+    "package": "paseo-cypress-pulse",
+    "version": "1.1.1",
+    "resolved": "https://registry.npmjs.org/paseo-cypress-pulse/-/paseo-cypress-pulse-1.1.1.tgz",
+    "integrity": "sha512-zKXVnKttrLKTG/MJT1+WwHPOMZ/PFGDn1s2zbHNDWeuGxKtd4+7lhUxeQjHgR0Mx0cx/aUf0NnlpXrIud5KQaA=="
+  },
+  "repository": {
+    "url": "https://github.com/mbranicky/cypress-pulse"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-16T13:58:05Z",
+  "submittedBy": "mbranicky-doxee",
+  "publishedAt": "2026-10-16T16:17:37Z",
+  "reviewedAt": "2026-10-19T22:05:47Z"
+}

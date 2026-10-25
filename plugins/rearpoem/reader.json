@@ -1,0 +1,20 @@
+{
+  "id": "rearpoem/reader",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/Rearpoem/paseo-reader.git",
+    "commit": "e84cd2053d2e7b83f8a3e112fe1b8d07db717e0f"
+  },
+  "repository": {
+    "url": "https://github.com/Rearpoem/paseo-reader",
+    "commit": "e84cd2053d2e7b83f8a3e112fe1b8d07db717e0f"
+  },
+  "categories": [
+    "sidebar",
+    "extras"
+  ],
+  "submittedAt": "2026-10-19T09:38:47Z",
+  "submittedBy": "Rearpoem",
+  "publishedAt": "2026-10-19T10:32:35Z",
+  "reviewedAt": "2026-10-19T10:32:35Z"
+}

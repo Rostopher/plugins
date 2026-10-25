@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "ratex-math-render",
-    "version": "0.1.2",
-    "resolved": "https://registry.npmjs.org/ratex-math-render/-/ratex-math-render-0.1.2.tgz",
-    "integrity": "sha512-FZw1tltvTZbhWsZ9nTjrNE4PaqkV784iiYndXC5xSeYjlCbvazD1OzgJEiko/ch4YX7Xz5L56nw521zXAy6v0A=="
+    "version": "0.1.6",
+    "resolved": "https://registry.npmjs.org/ratex-math-render/-/ratex-math-render-0.1.6.tgz",
+    "integrity": "sha512-l1imhsW3zrJeFsKVYFRhLOKv0lgwGNG0IiVlQDI/C5rWr1m3FCdZHwEwGEuAtTbdxY7uLWiNPyoPb5/1X2tVfw=="
   },
   "repository": {
     "url": "https://github.com/ZedRover/ratex-paseo",
-    "commit": "68af1d3a5260116485b640038ae80e0ad69b29cc"
+    "commit": "bcc94a5476be7be267eaaf8ef6494e956f4890e5"
   },
   "categories": [
     "utils"
@@ -17,8 +17,12 @@
   "submittedAt": "2026-09-22",
   "submittedBy": "ZedRover",
   "publishedAt": "2026-09-22",
-  "reviewedAt": "2026-09-22",
+  "reviewedAt": "2026-10-20T10:11:10Z",
   "listing": {
-    "media": []
+    "name": "RaTeX",
+    "media": [
+      "https://raw.githubusercontent.com/ZedRover/ratex-paseo/0edeec1573d18bac57997cad49bdc5af166417a4/assets/screenshot-chat.png",
+      "https://raw.githubusercontent.com/ZedRover/ratex-paseo/0edeec1573d18bac57997cad49bdc5af166417a4/assets/screenshot-scratchpad.png"
+    ]
   }
 }

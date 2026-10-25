@@ -1,0 +1,21 @@
+{
+  "id": "sunnypsk/conversation-manager",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sunnypsk/paseo-conversation-manager.git",
+    "commit": "4b36c294b0d7f3e4a9c6f7f8b48e2e249d064281"
+  },
+  "repository": {
+    "url": "https://github.com/sunnypsk/paseo-conversation-manager",
+    "commit": "4b36c294b0d7f3e4a9c6f7f8b48e2e249d064281"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-18T18:31:29Z",
+  "submittedBy": "sunnypsk",
+  "publishedAt": "2026-10-18T19:01:54Z",
+  "reviewedAt": "2026-10-18T19:01:54Z"
+}

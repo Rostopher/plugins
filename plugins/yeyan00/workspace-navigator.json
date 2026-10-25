@@ -1,0 +1,21 @@
+{
+  "id": "yeyan00/workspace-navigator",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/yeyan00/paseo-workspace-navigator.git",
+    "commit": "d4d5be46d00fa28bc939c7d0a661efff9d5bf509",
+    "tag": "v0.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/yeyan00/paseo-workspace-navigator",
+    "commit": "d4d5be46d00fa28bc939c7d0a661efff9d5bf509"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-18T06:36:47Z",
+  "submittedBy": "yeyan00",
+  "publishedAt": "2026-10-18T06:36:47Z",
+  "reviewedAt": "2026-10-18T06:36:47Z"
+}

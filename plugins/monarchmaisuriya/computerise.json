@@ -1,0 +1,24 @@
+{
+  "id": "monarchmaisuriya/computerise",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/monarchmaisuriya/computerise.git",
+    "commit": "b8a91c6ab192a152d9fc06f0edcb6a8c2b2324c1"
+  },
+  "repository": {
+    "url": "https://github.com/monarchmaisuriya/computerise",
+    "commit": "b8a91c6ab192a152d9fc06f0edcb6a8c2b2324c1"
+  },
+  "categories": [
+    "extras"
+  ],
+  "submittedAt": "2026-10-25T10:11:24Z",
+  "submittedBy": "monarchmaisuriya",
+  "publishedAt": "2026-10-25T10:31:50Z",
+  "reviewedAt": "2026-10-25T10:31:50Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/monarchmaisuriya/computerise/9098edca4efd4b51a518fcd66d3624bd1a4845b1/assets/screenshot.png"
+    ]
+  }
+}

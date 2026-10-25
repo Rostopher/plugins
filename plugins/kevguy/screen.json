@@ -1,0 +1,23 @@
+{
+  "id": "kevguy/screen",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/kevguy/paseo-screen.git",
+    "commit": "1df9050d3721d927aa73655ad2cb4b4b53f42db9"
+  },
+  "repository": {
+    "url": "https://github.com/kevguy/paseo-screen",
+    "commit": "1df9050d3721d927aa73655ad2cb4b4b53f42db9"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-22T05:33:15Z",
+  "submittedBy": "kevguy",
+  "publishedAt": "2026-10-22T05:33:15Z",
+  "reviewedAt": "2026-10-22T05:33:15Z",
+  "listing": {
+    "description": "See and control the host Mac screen, mouse, keyboard and text clipboard from paired Paseo clients."
+  }
+}

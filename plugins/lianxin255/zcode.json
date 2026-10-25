@@ -1,0 +1,27 @@
+{
+  "id": "lianxin255/zcode",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/lianxin255/paseo-plugin-zcode.git",
+    "commit": "d97fe7f711e9371d69ff620580e4b2888303d102",
+    "tag": "v0.3.6"
+  },
+  "repository": {
+    "url": "https://github.com/lianxin255/paseo-plugin-zcode",
+    "commit": "d97fe7f711e9371d69ff620580e4b2888303d102"
+  },
+  "categories": [
+    "providers"
+  ],
+  "submittedAt": "2026-10-20T01:11:04Z",
+  "submittedBy": "lianxin255",
+  "publishedAt": "2026-10-20T01:35:49Z",
+  "reviewedAt": "2026-10-20T03:04:39Z",
+  "listing": {
+    "name": "ZCode",
+    "description": "Use your installed ZCode agent in Paseo and view GLM Coding Plan usage.",
+    "media": [
+      "https://raw.githubusercontent.com/lianxin255/paseo-plugin-zcode/d97fe7f711e9371d69ff620580e4b2888303d102/images/zcode-usage-card.png"
+    ]
+  }
+}

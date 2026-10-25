@@ -1,0 +1,21 @@
+{
+  "id": "52216108/usage-reset",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/52216108/paseo-plugins.git",
+    "commit": "21569e15b32954d3646d9a3017185512bc047946",
+    "pluginPath": "usage-reset"
+  },
+  "repository": {
+    "url": "https://github.com/52216108/paseo-plugins",
+    "commit": "21569e15b32954d3646d9a3017185512bc047946"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-25T06:17:22Z",
+  "submittedBy": "52216108",
+  "publishedAt": "2026-10-25T06:33:37Z",
+  "reviewedAt": "2026-10-25T06:33:37Z"
+}

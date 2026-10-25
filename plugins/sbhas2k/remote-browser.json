@@ -1,0 +1,22 @@
+{
+  "id": "sbhas2k/remote-browser",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sbhas2k/paseo-plugins.git",
+    "commit": "8adc34770b6593228adece5dcdd7dccbfcb062cf",
+    "pluginPath": "remote-browser"
+  },
+  "repository": {
+    "url": "https://github.com/sbhas2k/paseo-plugins",
+    "commit": "8adc34770b6593228adece5dcdd7dccbfcb062cf"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar",
+    "extras"
+  ],
+  "submittedAt": "2026-10-24T02:07:18Z",
+  "submittedBy": "sbhas2k",
+  "publishedAt": "2026-10-24T02:07:18Z",
+  "reviewedAt": "2026-10-24T02:07:18Z"
+}

@@ -8,6 +8,8 @@ The `claude` and/or `codex` CLI must be installed where the daemon runs. Add acc
 
 Each Claude or Codex agent gets an account button in its message box once a provider has two or more accounts, and `/account <name>` does the same from the keyboard. Automatic switching is on by default: when the CLI reports a usage limit, an idle agent moves to the account with the most room left and a timeline note says so, and a busy agent moves after its turn.
 
+Changing the default account moves open Claude agents immediately when idle, or after their current turn. Turn off **Move open agents when the default changes** in Accounts or ZeroSub preferences to keep those agents pinned to their current usable account, including after reopening. New agents use the new default; kept agents still switch if their account reaches a limit. Choose **Follow default** or use `/account default` to return an agent to the default.
+
 A Claude conversation moves in place and keeps its history. A Codex thread cannot change accounts, so ZeroSub starts a continuation agent in the same workspace on the other account, seeded with the conversation so far. Disabling an account likewise leaves existing ChatGPT threads on it.
 
 Two options are off by default. One spends a provider's banked limit reset automatically, with no per-reset confirmation, when every account of that provider is out. The other continues a stopped chat on the other provider (Claude to ChatGPT or back) in a new agent with no more permissions than the original. You can also use a banked reset by hand, and that always asks for confirmation first.

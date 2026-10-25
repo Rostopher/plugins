@@ -1,0 +1,22 @@
+{
+  "id": "jasprw/flowly",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/JasprW/flowly.git",
+    "commit": "05d189695c170c2458399cb5086ec308ae0aecfc",
+    "tag": "v1.6.0"
+  },
+  "repository": {
+    "url": "https://github.com/JasprW/flowly",
+    "commit": "05d189695c170c2458399cb5086ec308ae0aecfc"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "utils"
+  ],
+  "submittedAt": "2026-10-16T07:15:27Z",
+  "submittedBy": "JasprW",
+  "publishedAt": "2026-10-16T07:48:03Z",
+  "reviewedAt": "2026-10-24T16:33:10Z"
+}
