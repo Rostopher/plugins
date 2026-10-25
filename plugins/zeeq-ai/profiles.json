@@ -1,0 +1,19 @@
+{
+  "id": "zeeq-ai/profiles",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/zeeq-ai/paseo-profiles.git",
+    "commit": "b1d6e67550d7b62d01312e19665ab183660bfc1e"
+  },
+  "repository": {
+    "url": "https://github.com/zeeq-ai/paseo-profiles",
+    "commit": "b1d6e67550d7b62d01312e19665ab183660bfc1e"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-25T16:02:58Z",
+  "submittedBy": "CharlieDigital",
+  "publishedAt": "2026-10-25T16:02:58Z",
+  "reviewedAt": "2026-10-25T16:02:58Z"
+}
