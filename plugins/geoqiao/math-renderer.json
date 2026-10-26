@@ -3,12 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-math-renderer",
-    "version": "0.1.0-beta.6",
-    "resolved": "https://registry.npmjs.org/paseo-math-renderer/-/paseo-math-renderer-0.1.0-beta.6.tgz",
-    "integrity": "sha512-RxXDnEMDr6ijDBaJ6RfykBEzv6OZslOkeXU1DC0IQh8xUUIoPmSio2omKFZAZ8rwxdjbqw14AMIwhJjz4VohbQ=="
+    "version": "0.1.0-beta.7",
+    "resolved": "https://registry.npmjs.org/paseo-math-renderer/-/paseo-math-renderer-0.1.0-beta.7.tgz",
+    "integrity": "sha512-3cqFoJiR8iGbjbKQtP5XAtprzSJcrg6/8OGlBPt0rKwhdGcuXEwG4UekGl6J3LLteqIPHMq17mNqX6QZmU8FtA=="
   },
   "repository": {
-    "url": "https://github.com/geoqiao/paseo-stuff/tree/HEAD/plugins/math-renderer"
+    "url": "https://github.com/geoqiao/paseo-stuff/tree/HEAD/plugins/math-renderer",
+    "commit": "03033ae43f2d803888228f919175adb931fd04e1"
   },
   "categories": [
     "utils"
@@ -16,7 +17,7 @@
   "submittedAt": "2026-09-12",
   "submittedBy": "geoqiao",
   "publishedAt": "2026-09-12",
-  "reviewedAt": "2026-10-18T16:33:06Z",
+  "reviewedAt": "2026-10-26T21:42:13Z",
   "listing": {
     "media": [
       "https://raw.githubusercontent.com/geoqiao/paseo-stuff/8f1895fbc4c123623832bef9c76ece69f55a4273/plugins/math-renderer/images/math-dark.png",
