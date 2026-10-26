@@ -1,0 +1,13 @@
+{
+  "issue": 1218,
+  "title": "Droid Native 0.3.0 update",
+  "submittedBy": "sunnypsk",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/sunnypsk/paseo-droid-plugin",
+    "ref": "84db11a2038ce505b9eca328e2811cbd72bfad09"
+  },
+  "categories": [
+    "providers"
+  ]
+}
