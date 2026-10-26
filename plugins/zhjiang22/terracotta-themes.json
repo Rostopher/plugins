@@ -3,12 +3,12 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/zhjiang22/paseo-plugins.git",
-    "commit": "a330c04d25831863abab1464dbdd325bafc70a43",
+    "commit": "9895b55feff003742d8148d3c8b5bd5fc863bd11",
     "pluginPath": "claude-theme"
   },
   "repository": {
     "url": "https://github.com/zhjiang22/paseo-plugins",
-    "commit": "a330c04d25831863abab1464dbdd325bafc70a43"
+    "commit": "9895b55feff003742d8148d3c8b5bd5fc863bd11"
   },
   "categories": [
     "themes"
@@ -16,5 +16,5 @@
   "submittedAt": "2026-10-10",
   "submittedBy": "zhjiang22",
   "publishedAt": "2026-10-10",
-  "reviewedAt": "2026-10-16T05:42:25Z"
+  "reviewedAt": "2026-10-26T06:01:43Z"
 }
