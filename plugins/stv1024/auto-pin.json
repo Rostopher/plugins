@@ -3,12 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-auto-pin",
-    "version": "0.5.1",
-    "resolved": "https://registry.npmjs.org/paseo-auto-pin/-/paseo-auto-pin-0.5.1.tgz",
-    "integrity": "sha512-yw9pzEA7rt5nUWWeTX+S/ghPM0415wt6tdVzYUsDg/hQwqITfmXSp98Sq4fw8x2sLCVSW7wi16hpTecEtJneWw=="
+    "version": "0.5.2",
+    "resolved": "https://registry.npmjs.org/paseo-auto-pin/-/paseo-auto-pin-0.5.2.tgz",
+    "integrity": "sha512-h8A6deihde7RgTX+4K+8i5Fi8E9/urOSnuPaE9RPgh6iVtFn9uFDu1Qb5DDCBdfi3plNoUJHGtnaMcF2Lo/mJQ=="
   },
   "repository": {
-    "url": "https://github.com/stv1024/paseo-auto-pin"
+    "url": "https://github.com/stv1024/paseo-auto-pin",
+    "commit": "e66d0c8e613dbee942eea76d22722416c9b8ef29"
   },
   "categories": [
     "workspaces",
@@ -17,7 +18,7 @@
   "submittedAt": "2026-09-25",
   "submittedBy": "stv1024",
   "publishedAt": "2026-09-25",
-  "reviewedAt": "2026-10-25T12:32:16Z",
+  "reviewedAt": "2026-10-26T11:16:42Z",
   "listing": {
     "media": [
       "https://cdn.jsdelivr.net/npm/paseo-auto-pin@0.5.1/assets/screenshot-panel.png",
