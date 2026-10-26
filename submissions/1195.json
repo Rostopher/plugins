@@ -1,0 +1,13 @@
+{
+  "issue": 1195,
+  "title": "paseo-plugin-management",
+  "submittedBy": "Arkmusn",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/Arkmusn/paseo-plugin-management",
+    "ref": "237c5348bdf7a57842c0c7ed2a05cacb071da77e"
+  },
+  "categories": [
+    "daemon-management"
+  ]
+}
