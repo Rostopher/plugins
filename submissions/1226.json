@@ -1,0 +1,15 @@
+{
+  "issue": 1226,
+  "title": "Paseo Approvals",
+  "submittedBy": "delirious6423",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/delirious6423/paseo-approvals",
+    "ref": "b8df881b49c81fb56fb021f6ffddfcc6a77eab29"
+  },
+  "categories": [
+    "orchestration",
+    "sidebar",
+    "utils"
+  ]
+}
