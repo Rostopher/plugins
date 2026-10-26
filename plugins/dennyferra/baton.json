@@ -3,13 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-baton",
-    "version": "0.2.1",
-    "resolved": "https://registry.npmjs.org/paseo-baton/-/paseo-baton-0.2.1.tgz",
-    "integrity": "sha512-K25S1IxyIN//XY3ET6zlLdZheLolqrcYyTpy0QVdttXcJ0vpckMQK0CrbAU3jfOWWlzTvm1SaIg78p46A0GJKw=="
+    "version": "0.2.2",
+    "resolved": "https://registry.npmjs.org/paseo-baton/-/paseo-baton-0.2.2.tgz",
+    "integrity": "sha512-l1PzmX/iKgfKkjohTuRVLCAOFv58+UcVoXV0YClmYm9m8zTZ48SAYaT/JHouBBGQY6nqnKFudtrKL3hUrlkMZw=="
   },
   "repository": {
     "url": "https://github.com/dennyferra/paseo-baton",
-    "commit": "fb67fdccaca02b68f1c841e1b46bb6987927aaab"
+    "commit": "dcea1cf8cad64ffbb09c841213d993a0f497d4eb"
   },
   "categories": [
     "orchestration",
@@ -18,5 +18,5 @@
   "submittedAt": "2026-10-23T03:39:36Z",
   "submittedBy": "dennyferra",
   "publishedAt": "2026-10-23T04:04:57Z",
-  "reviewedAt": "2026-10-25T05:31:41Z"
+  "reviewedAt": "2026-10-26T21:40:28Z"
 }
