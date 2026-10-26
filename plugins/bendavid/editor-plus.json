@@ -1,0 +1,21 @@
+{
+  "id": "bendavid/editor-plus",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/bendavid/paseo-editor-plus.git",
+    "commit": "aa90f097ac850cdb3dbf67b4b1693310f8fb536b",
+    "tag": "v0.1.2"
+  },
+  "repository": {
+    "url": "https://github.com/bendavid/paseo-editor-plus",
+    "commit": "aa90f097ac850cdb3dbf67b4b1693310f8fb536b"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ],
+  "submittedAt": "2026-10-26T02:01:42Z",
+  "submittedBy": "bendavid",
+  "publishedAt": "2026-10-26T02:32:30Z",
+  "reviewedAt": "2026-10-26T02:32:30Z"
+}
