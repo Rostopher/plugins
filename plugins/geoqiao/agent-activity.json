@@ -3,12 +3,13 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-readable-agent-activity",
-    "version": "0.1.0-beta.11",
-    "resolved": "https://registry.npmjs.org/paseo-readable-agent-activity/-/paseo-readable-agent-activity-0.1.0-beta.11.tgz",
-    "integrity": "sha512-54BERdWoC12UrIHV2MHcJYu6n6U2lr9qTosGuaLGvtf6uJh4/1CwRm1wGyEgFo3r4d5xqmqbom657NlP6OIUVw=="
+    "version": "0.1.0-beta.12",
+    "resolved": "https://registry.npmjs.org/paseo-readable-agent-activity/-/paseo-readable-agent-activity-0.1.0-beta.12.tgz",
+    "integrity": "sha512-ewoK5lMLQBbHRgmeii/v9CB71NiVpeV9+9kfh4SOWc+Z7Llqgmz2e8CMfVJY/+Ez5YKBFK1wRSzw69TrcG7stg=="
   },
   "repository": {
-    "url": "https://github.com/geoqiao/paseo-stuff"
+    "url": "https://github.com/geoqiao/paseo-stuff/tree/HEAD/plugins/agent-activity",
+    "commit": "e4e05ee635bc7a5824f333b5d5faf43966339e63"
   },
   "categories": [
     "utils"
@@ -16,7 +17,7 @@
   "submittedAt": "2026-09-12",
   "submittedBy": "geoqiao",
   "publishedAt": "2026-09-12",
-  "reviewedAt": "2026-10-18T16:33:06Z",
+  "reviewedAt": "2026-10-26T21:41:38Z",
   "listing": {
     "media": [
       "https://raw.githubusercontent.com/geoqiao/paseo-stuff/28ade236fb53633dd54a5ab3fad807a8a7774b0e/plugins/agent-activity/images/01-json-comparison.png",
