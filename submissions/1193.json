@@ -1,0 +1,14 @@
+{
+  "issue": 1193,
+  "title": "Editor Plus",
+  "submittedBy": "bendavid",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/bendavid/paseo-editor-plus",
+    "ref": "v0.1.2"
+  },
+  "categories": [
+    "extras",
+    "utils"
+  ]
+}
