@@ -1,0 +1,16 @@
+{
+  "issue": 1204,
+  "title": "Project Notes",
+  "submittedBy": "zhjiang22",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/zhjiang22/paseo-plugins",
+    "ref": "9895b55feff003742d8148d3c8b5bd5fc863bd11",
+    "pluginPath": "project-notes"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar",
+    "utils"
+  ]
+}
