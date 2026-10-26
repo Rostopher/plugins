@@ -3,11 +3,11 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/Arkmusn/paseo-plugin-management.git",
-    "commit": "b815f44eb4f444b65efd3b8b6d9533a0080ed0e1"
+    "commit": "237c5348bdf7a57842c0c7ed2a05cacb071da77e"
   },
   "repository": {
     "url": "https://github.com/Arkmusn/paseo-plugin-management",
-    "commit": "b815f44eb4f444b65efd3b8b6d9533a0080ed0e1"
+    "commit": "237c5348bdf7a57842c0c7ed2a05cacb071da77e"
   },
   "categories": [
     "daemon-management"
@@ -15,12 +15,12 @@
   "submittedAt": "2026-10-23T06:39:03Z",
   "submittedBy": "Arkmusn",
   "publishedAt": "2026-10-23T07:03:05Z",
-  "reviewedAt": "2026-10-23T07:03:05Z",
+  "reviewedAt": "2026-10-26T03:02:53Z",
   "listing": {
     "name": "Plugin Management",
     "media": [
-      "https://raw.githubusercontent.com/Arkmusn/paseo-plugin-management/b815f44eb4f444b65efd3b8b6d9533a0080ed0e1/assets/installed.png",
-      "https://raw.githubusercontent.com/Arkmusn/paseo-plugin-management/b815f44eb4f444b65efd3b8b6d9533a0080ed0e1/assets/market.png"
+      "https://raw.githubusercontent.com/Arkmusn/paseo-plugin-management/237c5348bdf7a57842c0c7ed2a05cacb071da77e/assets/installed.png",
+      "https://raw.githubusercontent.com/Arkmusn/paseo-plugin-management/237c5348bdf7a57842c0c7ed2a05cacb071da77e/assets/market.png"
     ]
   }
 }
