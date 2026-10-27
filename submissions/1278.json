@@ -1,0 +1,14 @@
+{
+  "issue": 1278,
+  "title": "dsh-paseo",
+  "submittedBy": "liuxing7954",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/liuxing7954/paseo-dsh",
+    "ref": "main",
+    "pluginPath": "paseo-plugin"
+  },
+  "categories": [
+    "providers"
+  ]
+}
