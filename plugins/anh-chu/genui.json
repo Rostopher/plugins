@@ -3,9 +3,9 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-plugin-genui",
-    "version": "0.1.7",
-    "resolved": "https://registry.npmjs.org/paseo-plugin-genui/-/paseo-plugin-genui-0.1.7.tgz",
-    "integrity": "sha512-3riKxqTO4NTSPofLvfkReXA4ZX04LQR/JgTe19aGZc6tw7D82KETAdM2L1Yy35iXDyc90yryz8HVTqqukauziw=="
+    "version": "0.2.1",
+    "resolved": "https://registry.npmjs.org/paseo-plugin-genui/-/paseo-plugin-genui-0.2.1.tgz",
+    "integrity": "sha512-bcLrbbJiqLYX2IR947JuSRTyBo2Kvc8bcY8Hkb2mR9vzORvoRG5Xq4pmalxqxtuVy65PFAvkhvHHTzm4Yjs6eg=="
   },
   "repository": {
     "url": "https://github.com/anh-chu/paseo-plugin-genui"
@@ -19,5 +19,5 @@
   "submittedAt": "2026-10-16T15:59:40Z",
   "submittedBy": "anh-chu",
   "publishedAt": "2026-10-17T21:08:46Z",
-  "reviewedAt": "2026-10-21T11:04:45Z"
+  "reviewedAt": "2026-10-27T10:41:51Z"
 }
