@@ -1,0 +1,13 @@
+{
+  "issue": 1271,
+  "title": "Tangent",
+  "submittedBy": "nilbus",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/nilbus/paseo-tangent"
+  },
+  "categories": [
+    "orchestration",
+    "sidebar"
+  ]
+}
