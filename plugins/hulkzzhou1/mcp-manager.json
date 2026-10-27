@@ -3,19 +3,18 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/hulkzzhou1/paseo-mcp-manager.git",
-    "commit": "5f7ca182cd0b9f994c1985d65122c94491fc3b00",
-    "tag": "v0.1.1"
+    "commit": "ea387c15e11edbbb4bba9df0d221755ca73ac4aa",
+    "tag": "v0.1.4"
   },
   "repository": {
     "url": "https://github.com/hulkzzhou1/paseo-mcp-manager",
-    "commit": "5f7ca182cd0b9f994c1985d65122c94491fc3b00"
+    "commit": "ea387c15e11edbbb4bba9df0d221755ca73ac4aa"
   },
   "categories": [
-    "daemon-management",
-    "sidebar"
+    "daemon-management"
   ],
   "submittedAt": "2026-10-26T19:28:08Z",
   "submittedBy": "hulkzzhou1",
   "publishedAt": "2026-10-26T20:01:59Z",
-  "reviewedAt": "2026-10-26T21:01:57Z"
+  "reviewedAt": "2026-10-27T19:35:31Z"
 }
