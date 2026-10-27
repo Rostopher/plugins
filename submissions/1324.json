@@ -1,0 +1,14 @@
+{
+  "issue": 1324,
+  "title": "Docker Sandboxes",
+  "submittedBy": "drungrin",
+  "source": {
+    "kind": "npm",
+    "package": "@drungrin/paseo-sbx"
+  },
+  "categories": [
+    "providers",
+    "workspaces",
+    "sidebar"
+  ]
+}
