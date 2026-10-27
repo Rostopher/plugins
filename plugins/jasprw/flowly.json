@@ -3,12 +3,12 @@
   "artifact": {
     "kind": "git",
     "remote": "https://github.com/JasprW/flowly.git",
-    "commit": "4f8d3d823a043f9233c12bd9be8c9aa79c68745b",
-    "tag": "v1.7.0"
+    "commit": "e31954bba8e263fe2009cf228ad10ea482e0460f",
+    "tag": "v1.7.1"
   },
   "repository": {
     "url": "https://github.com/JasprW/flowly",
-    "commit": "4f8d3d823a043f9233c12bd9be8c9aa79c68745b"
+    "commit": "e31954bba8e263fe2009cf228ad10ea482e0460f"
   },
   "categories": [
     "orchestration",
@@ -18,5 +18,5 @@
   "submittedAt": "2026-10-16T07:15:27Z",
   "submittedBy": "JasprW",
   "publishedAt": "2026-10-16T07:48:03Z",
-  "reviewedAt": "2026-10-26T14:39:06Z"
+  "reviewedAt": "2026-10-27T03:42:28Z"
 }
