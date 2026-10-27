@@ -1,0 +1,19 @@
+{
+  "id": "drenalol/change-mode-mobile",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/Drenalol/paseo-change-mode-mobile.git",
+    "commit": "d25df5ba8a28dc9658b234122f3ec4a739bc4f99"
+  },
+  "repository": {
+    "url": "https://github.com/Drenalol/paseo-change-mode-mobile",
+    "commit": "d25df5ba8a28dc9658b234122f3ec4a739bc4f99"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-27T10:02:15Z",
+  "submittedBy": "Drenalol",
+  "publishedAt": "2026-10-27T10:02:15Z",
+  "reviewedAt": "2026-10-27T10:02:15Z"
+}
