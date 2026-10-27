@@ -1,0 +1,20 @@
+{
+  "id": "xzthemeofsss/link-pilot",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/xzthemeofsss/paseo-plugins.git",
+    "commit": "ef46ba62a203c89c0d160551a98008d32fed9d07",
+    "pluginPath": "plugins/link-pilot"
+  },
+  "repository": {
+    "url": "https://github.com/xzthemeofsss/paseo-plugins",
+    "commit": "ef46ba62a203c89c0d160551a98008d32fed9d07"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-27T03:52:22Z",
+  "submittedBy": "xzthemeofsss",
+  "publishedAt": "2026-10-27T04:01:22Z",
+  "reviewedAt": "2026-10-27T04:01:22Z"
+}
