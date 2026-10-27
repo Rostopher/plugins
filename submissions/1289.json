@@ -1,0 +1,12 @@
+{
+  "issue": 1289,
+  "title": "Change mode",
+  "submittedBy": "Drenalol",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/Drenalol/paseo-change-mode-mobile"
+  },
+  "categories": [
+    "utils"
+  ]
+}
