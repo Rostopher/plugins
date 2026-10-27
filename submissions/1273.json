@@ -1,0 +1,15 @@
+{
+  "issue": 1273,
+  "title": "Usage reset times",
+  "submittedBy": "52216108",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/52216108/paseo-plugins",
+    "ref": "eed682e79f418a0761a050c1ba3f687cf1a90945",
+    "pluginPath": "usage-reset"
+  },
+  "categories": [
+    "sidebar",
+    "utils"
+  ]
+}
