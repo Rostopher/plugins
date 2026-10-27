@@ -15,5 +15,21 @@
   "submittedAt": "2026-10-19T08:37:12Z",
   "submittedBy": "RRD-dev",
   "publishedAt": "2026-10-19T08:39:57Z",
-  "reviewedAt": "2026-10-27T02:06:19Z"
+  "reviewedAt": "2026-10-27T12:07:47Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/images/hero-cover.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/images/tasks-board-light.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/images/timeline-light.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/02-tasks-board.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/03-timeline.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/04-phone.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/05-ipad.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/06-tool-icons.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/07-hover-preview.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/08-tables.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/09-card-menu.png",
+      "https://raw.githubusercontent.com/RoundRedDot/better-paseo/64d93e73d301b3d94201441829dead2c97b34392/assets/listing/10-settings.png"
+    ]
+  }
 }
