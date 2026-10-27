@@ -1,0 +1,13 @@
+{
+  "issue": 1261,
+  "title": "Next Question",
+  "submittedBy": "JacksonHuang517",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/JacksonHuang517/paseo-next-question-plugin"
+  },
+  "categories": [
+    "utils",
+    "extras"
+  ]
+}
