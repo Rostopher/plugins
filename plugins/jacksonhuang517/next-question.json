@@ -1,0 +1,20 @@
+{
+  "id": "jacksonhuang517/next-question",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/JacksonHuang517/paseo-next-question-plugin.git",
+    "commit": "9042d5d198817f3167a7922cafcbb556857fb251"
+  },
+  "repository": {
+    "url": "https://github.com/JacksonHuang517/paseo-next-question-plugin",
+    "commit": "9042d5d198817f3167a7922cafcbb556857fb251"
+  },
+  "categories": [
+    "utils",
+    "extras"
+  ],
+  "submittedAt": "2026-10-27T03:44:17Z",
+  "submittedBy": "JacksonHuang517",
+  "publishedAt": "2026-10-27T03:48:05Z",
+  "reviewedAt": "2026-10-27T03:48:05Z"
+}
