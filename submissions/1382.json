@@ -1,0 +1,12 @@
+{
+  "issue": 1382,
+  "title": "Host Backup",
+  "submittedBy": "talongao",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/talongao/paseo-plugin-host-sync"
+  },
+  "categories": [
+    "daemon-management"
+  ]
+}
