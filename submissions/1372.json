@@ -1,0 +1,16 @@
+{
+  "issue": 1372,
+  "title": "Agent CLI Monitor",
+  "submittedBy": "duyiliu",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/duyiliu/paseo-plugins",
+    "ref": "agent-cli-monitor-v0.1.1",
+    "pluginPath": "agent-cli-monitor"
+  },
+  "categories": [
+    "daemon-management",
+    "workspaces",
+    "sidebar"
+  ]
+}
