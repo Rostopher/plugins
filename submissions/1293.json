@@ -1,0 +1,14 @@
+{
+  "issue": 1293,
+  "title": "Clusters",
+  "submittedBy": "thisjrodriguez",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/thisjrodriguez/paseo-plugin-clusters",
+    "ref": "eb219a7"
+  },
+  "categories": [
+    "workspaces",
+    "sidebar"
+  ]
+}
