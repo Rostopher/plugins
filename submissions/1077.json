@@ -1,0 +1,14 @@
+{
+  "issue": 1077,
+  "title": "team bots",
+  "submittedBy": "yeyan00",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/yeyan00/paseo-bots"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces",
+    "sidebar"
+  ]
+}
