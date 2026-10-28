@@ -1,22 +1,22 @@
 {
-  "id": "epistex0/parent-wake",
+  "id": "epistex-dev/parent-wake",
   "artifact": {
     "kind": "git",
-    "remote": "https://github.com/EPISTEX0/paseo-parent-wake.git",
+    "remote": "https://github.com/epistex-dev/paseo-subagent-notifications.git",
     "commit": "4318bc168e7f366bf690a2c25f815c3c70b34205",
     "tag": "v0.3.0"
   },
   "repository": {
-    "url": "https://github.com/EPISTEX0/paseo-parent-wake",
+    "url": "https://github.com/epistex-dev/paseo-subagent-notifications",
     "commit": "4318bc168e7f366bf690a2c25f815c3c70b34205"
   },
   "categories": [
     "orchestration"
   ],
-  "submittedAt": "2026-09-18",
-  "submittedBy": "EPISTEX0",
-  "publishedAt": "2026-09-18",
-  "reviewedAt": "2026-09-18",
+  "submittedAt": "2026-09-18T00:00:00Z",
+  "submittedBy": "epistex-dev",
+  "publishedAt": "2026-09-18T00:00:00Z",
+  "reviewedAt": "2026-10-27T10:35:10Z",
   "listing": {
     "media": [],
     "description": "Notifies a parent agent whenever a child agent asks for permission or finishes a turn."

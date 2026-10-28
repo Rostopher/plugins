@@ -3,9 +3,9 @@
   "artifact": {
     "kind": "npm",
     "package": "paseo-wiki-viewer",
-    "version": "0.1.1",
-    "resolved": "https://registry.npmjs.org/paseo-wiki-viewer/-/paseo-wiki-viewer-0.1.1.tgz",
-    "integrity": "sha512-xNXFl398GY9817l3npaMemqsUmY48IYpxAxVPq090eJIOxw8rwi5s4SE5m0FzigSLrmbrx2ZV+amNAJ5EwE5Pg=="
+    "version": "0.1.2",
+    "resolved": "https://registry.npmjs.org/paseo-wiki-viewer/-/paseo-wiki-viewer-0.1.2.tgz",
+    "integrity": "sha512-zjDp4hgix2TeECn0livmsw4+zROzApXPbttBILvgqXv8akv70PNbYUwA57tpb4dRq7zdSQD2tbnbZN/jYm7tQQ=="
   },
   "repository": {
     "url": "https://github.com/anh-chu/paseo-wiki-viewer"
@@ -18,5 +18,5 @@
   "submittedAt": "2026-10-19T04:49:09Z",
   "submittedBy": "anh-chu",
   "publishedAt": "2026-10-19T09:36:31Z",
-  "reviewedAt": "2026-10-19T09:36:31Z"
+  "reviewedAt": "2026-10-27T10:42:12Z"
 }

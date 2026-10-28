@@ -1,0 +1,20 @@
+{
+  "id": "gtoxlili/glm-usage",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/gtoxlili/paseo-glm-usage.git",
+    "commit": "60235a4b664c354895b08a9879f499e8d3343ad8",
+    "tag": "v0.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/gtoxlili/paseo-glm-usage",
+    "commit": "60235a4b664c354895b08a9879f499e8d3343ad8"
+  },
+  "categories": [
+    "utils"
+  ],
+  "submittedAt": "2026-10-27T12:05:12Z",
+  "submittedBy": "gtoxlili",
+  "publishedAt": "2026-10-27T12:12:08Z",
+  "reviewedAt": "2026-10-27T12:12:08Z"
+}

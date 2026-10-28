@@ -1,0 +1,20 @@
+{
+  "id": "nilbus/tangent",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/nilbus/paseo-tangent.git",
+    "commit": "081768f1c10e53bc23817e71f6e09e28e1d1b99b"
+  },
+  "repository": {
+    "url": "https://github.com/nilbus/paseo-tangent",
+    "commit": "081768f1c10e53bc23817e71f6e09e28e1d1b99b"
+  },
+  "categories": [
+    "orchestration",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-27T06:43:29Z",
+  "submittedBy": "nilbus",
+  "publishedAt": "2026-10-27T07:06:13Z",
+  "reviewedAt": "2026-10-27T07:06:13Z"
+}

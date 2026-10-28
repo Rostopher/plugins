@@ -1,0 +1,22 @@
+{
+  "id": "sbhas2k/agy-rotator-windows",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/sbhas2k/paseo-plugins.git",
+    "commit": "26c9d8d0b0f898d50c5ced7d5431806a1ebc8d51",
+    "pluginPath": "agy-rotator-windows"
+  },
+  "repository": {
+    "url": "https://github.com/sbhas2k/paseo-plugins",
+    "commit": "26c9d8d0b0f898d50c5ced7d5431806a1ebc8d51"
+  },
+  "categories": [
+    "providers",
+    "sidebar",
+    "utils"
+  ],
+  "submittedAt": "2026-10-27T14:31:34Z",
+  "submittedBy": "sbhas2k",
+  "publishedAt": "2026-10-27T14:36:44Z",
+  "reviewedAt": "2026-10-27T14:36:44Z"
+}
