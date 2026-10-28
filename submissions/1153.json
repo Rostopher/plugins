@@ -1,0 +1,14 @@
+{
+  "issue": 1153,
+  "title": "Codex Style Annotations",
+  "submittedBy": "xzthemeofsss",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/xzthemeofsss/paseo-plugins",
+    "ref": "v0.2.2"
+  },
+  "categories": [
+    "workspaces",
+    "utils"
+  ]
+}
