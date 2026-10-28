@@ -17,6 +17,11 @@
   ],
   "submittedAt": "2026-10-28T01:03:22Z",
   "submittedBy": "duyiliu",
-  "publishedAt": "2026-10-28T01:05:18Z",
-  "reviewedAt": "2026-10-28T01:34:22Z"
+  "publishedAt": "2026-10-28T03:32:21Z",
+  "reviewedAt": "2026-10-28T03:32:21Z",
+  "listing": {
+    "media": [
+      "https://raw.githubusercontent.com/duyiliu/agent-cli-monitor/092f07f19be8e11c42b2d41b2e48b06363a8d35a/assets/detail-screen.png"
+    ]
+  }
 }
