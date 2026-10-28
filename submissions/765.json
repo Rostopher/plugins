@@ -1,0 +1,14 @@
+{
+  "issue": 765,
+  "title": "Agent Teams",
+  "submittedBy": "ssime-git",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/ssime-git/paseo-agent-teams",
+    "ref": "f8f57acb22febbe93d0ccd55e57cbc9c8268265e"
+  },
+  "categories": [
+    "orchestration",
+    "workspaces"
+  ]
+}
