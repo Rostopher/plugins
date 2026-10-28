@@ -1,0 +1,13 @@
+{
+  "issue": 992,
+  "title": "Synthetic usage source",
+  "submittedBy": "karrots",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/karrots/paseo-synthetic-usage-source"
+  },
+  "categories": [
+    "providers",
+    "sidebar"
+  ]
+}
