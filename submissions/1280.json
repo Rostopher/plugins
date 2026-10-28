@@ -1,0 +1,14 @@
+{
+  "issue": 1280,
+  "title": "Commands",
+  "submittedBy": "yuruiz",
+  "source": {
+    "kind": "git",
+    "source": "https://github.com/yuruiz/paseo-plugins",
+    "ref": "4c85b40466aad40cfebe30e0a8b3224eaf70b9d7",
+    "pluginPath": "commands"
+  },
+  "categories": [
+    "utils"
+  ]
+}
