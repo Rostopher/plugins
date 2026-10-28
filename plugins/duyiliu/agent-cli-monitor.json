@@ -1,0 +1,23 @@
+{
+  "id": "duyiliu/agent-cli-monitor",
+  "artifact": {
+    "kind": "git",
+    "remote": "https://github.com/duyiliu/paseo-plugins.git",
+    "commit": "b93e4258ecbbd7c7bb9857e3a58cd30dff78c58f",
+    "tag": "agent-cli-monitor-v0.1.1",
+    "pluginPath": "agent-cli-monitor"
+  },
+  "repository": {
+    "url": "https://github.com/duyiliu/paseo-plugins",
+    "commit": "b93e4258ecbbd7c7bb9857e3a58cd30dff78c58f"
+  },
+  "categories": [
+    "daemon-management",
+    "workspaces",
+    "sidebar"
+  ],
+  "submittedAt": "2026-10-28T01:03:22Z",
+  "submittedBy": "duyiliu",
+  "publishedAt": "2026-10-28T01:05:18Z",
+  "reviewedAt": "2026-10-28T01:06:08Z"
+}
