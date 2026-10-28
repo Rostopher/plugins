@@ -1,0 +1,12 @@
+{
+  "issue": 553,
+  "title": "Freebuff terminal",
+  "submittedBy": "iamaamir",
+  "source": {
+    "kind": "npm",
+    "package": "@iamaamir/paseo-freebuff"
+  },
+  "categories": [
+    "utils"
+  ]
+}
